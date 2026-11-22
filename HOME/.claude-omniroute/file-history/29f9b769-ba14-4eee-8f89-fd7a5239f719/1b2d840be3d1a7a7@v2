@@ -1,0 +1,4 @@
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/kids?schema=public"
+DIRECT_URL="postgresql://postgres:postgres@localhost:5432/kids?schema=public"
+ADMIN_EMAIL="admin@kidsmaroc.ma"
+ADMIN_PASSWORD="AdminKids2026!"

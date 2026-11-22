@@ -1,0 +1,6 @@
+import { SearchFilterSort } from "@/components/SearchFilterSort";
+import { storeProducts } from "@/lib/store-catalog";
+
+export default function SearchPage() {
+  return <SearchFilterSort initialProducts={storeProducts} />;
+}

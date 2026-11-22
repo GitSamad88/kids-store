@@ -1,0 +1,1 @@
+{"agentType":"workflow-subagent","isBuiltIn":true,"description":"storefront-db-switch","workflowPhase":"Database Migration & Storefront Switch","spawnDepth":1,"requestShape":"foreground","requestNonInteractive":true,"pickedEffortModel":"Free-combo"}

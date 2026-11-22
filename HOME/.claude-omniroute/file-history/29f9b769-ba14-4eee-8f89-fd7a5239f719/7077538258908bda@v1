@@ -1,0 +1,125 @@
+import { OrderStatus } from "@prisma/client";
+import { getCurrentUser } from "@/lib/auth";
+import { z } from "zod";
+import { prisma } from "@/lib/prisma";
+
+async function ensureAdmin() {
+  const user = await getCurrentUser();
+  if (!user || user.role !== "ADMIN") {
+    throw new Error("Accès refusé. Privilèges administrateur requis.");
+  }
+  return user;
+}
+
+// 1. Product & Category Administration
+export const AdminProductSchema = z.object({
+  titleFr: z.string().min(2),
+  titleAr: z.string().min(2),
+  descriptionFr: z.string().min(5),
+  descriptionAr: z.string().min(5),
+  price: z.coerce.number().min(0.01),
+  oldPrice: z.coerce.number().min(0).optional(),
+  categoryId: z.string().uuid(),
+  isActive: z.boolean().default(true),
+  isFeatured: z.boolean().default(false),
+  stock: z.coerce.number().int().min(0),
+});
+
+export async function adminCreateProduct(rawInput: unknown) {
+  await ensureAdmin();
+  const parsed = AdminProductSchema.parse(rawInput);
+
+  const slug = parsed.titleFr
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)+/g, "");
+
+  return await prisma.$transaction(async (tx) => {
+    const product = await tx.product.create({
+      data: {
+        slug: `${slug}-${Date.now().toString().slice(-4)}`,
+        titleFr: parsed.titleFr,
+        titleAr: parsed.titleAr,
+        descriptionFr: parsed.descriptionFr,
+        descriptionAr: parsed.descriptionAr,
+        price: parsed.price,
+        oldPrice: parsed.oldPrice || null,
+        categoryId: parsed.categoryId,
+        isActive: parsed.isActive,
+        isFeatured: parsed.isFeatured,
+        inventory: {
+          create: { stock: parsed.stock },
+        },
+        variants: {
+          create: [
+            {
+              nameFr: "Standard",
+              nameAr: "قياسي",
+              sku: `SKU-${Date.now()}`,
+              price: parsed.price,
+              stock: parsed.stock,
+            },
+          ],
+        },
+      },
+      include: { inventory: true, variants: true, category: true },
+    });
+
+    return product;
+  });
+}
+
+export async function adminUpdateInventory(productId: string, newStock: number) {
+  await ensureAdmin();
+
+  return await prisma.$transaction(async (tx) => {
+    await tx.inventory.update({
+      where: { productId },
+      data: { stock: newStock },
+    });
+
+    // Update primary variant stock as well
+    await tx.productVariant.updateMany({
+      where: { productId },
+      data: { stock: newStock },
+    });
+
+    return { success: true, newStock };
+  });
+}
+
+// 2. Order Management & Audit-safe Operations
+export async function adminGetOrders() {
+  await ensureAdmin();
+
+  return await prisma.order.findMany({
+    include: {
+      items: {
+        include: { product: true, variant: true },
+      },
+      user: true,
+    },
+    orderBy: { createdAt: "desc" },
+  });
+}
+
+export async function adminUpdateOrderStatus(orderId: string, newStatus: OrderStatus) {
+  const admin = await ensureAdmin();
+
+  const order = await prisma.order.findUnique({ where: { id: orderId } });
+  if (!order) {
+    throw new Error("Commande introuvable");
+  }
+
+  // Audit log notation in notes
+  const auditNote = `[Audit] Statut changé de ${order.status} à ${newStatus} par Admin (${admin.email}) le ${new Date().toISOString()}`;
+  const existingNotes = order.notes ? `${order.notes}\n${auditNote}` : auditNote;
+
+  return await prisma.order.update({
+    where: { id: orderId },
+    data: {
+      status: newStatus,
+      notes: existingNotes,
+    },
+  });
+}

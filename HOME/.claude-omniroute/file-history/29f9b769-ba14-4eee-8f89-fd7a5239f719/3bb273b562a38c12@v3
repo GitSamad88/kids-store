@@ -1,0 +1,174 @@
+import { getCurrentUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
+import { prisma } from "@/lib/prisma";
+import { adminCreateProduct } from "@/lib/admin";
+import { adminUpdateProduct } from "@/lib/admin";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+
+export default async function NewProductPage() {
+  const user = await getCurrentUser();
+  if (!user || user.role !== "ADMIN") {
+    redirect("/admin/login");
+  }
+
+  const categories = await prisma.category.findMany();
+
+  async function createProductAction(formData: FormData) {
+    "use server";
+    try {
+      await adminCreateProduct({
+        titleFr: formData.get("titleFr"),
+        titleAr: formData.get("titleAr"),
+        descriptionFr: formData.get("descriptionFr"),
+        descriptionAr: formData.get("descriptionAr"),
+        price: formData.get("price"),
+        oldPrice: formData.get("oldPrice") || undefined,
+        categoryId: formData.get("categoryId"),
+        isActive: formData.get("isActive") === "on",
+        isFeatured: formData.get("isFeatured") === "on",
+        stock: formData.get("stock"),
+      });
+      redirect("/admin/products");
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  }
+
+  return (
+    <div className="max-w-3xl space-y-8">
+      <div className="flex items-center gap-4">
+        <Link
+          href="/admin/products"
+          className="p-2 bg-slate-800 border border-slate-700 rounded-xl text-slate-300 hover:text-white transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5" />
+        </Link>
+        <div>
+          <h1 className="text-2xl font-black text-white">Ajouter un nouveau produit</h1>
+          <p className="text-slate-400 text-xs">Remplissez les informations du produit pour la boutique.</p>
+        </div>
+
+      <form action={createProductAction} className="bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-xl space-y-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="space-y-2">
+            <label className="text-xs font-bold text-slate-300">Titre (Français)</label>
+            <input
+              type="text"
+              name="titleFr"
+              required
+              placeholder="ex: Poussette Luxe"
+              className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="text-xs font-bold text-slate-300">Titre (Arabe)</label>
+            <input
+              type="text"
+              name="titleAr"
+              required
+              placeholder="عربة أطفال"
+              className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="space-y-2">
+            <label className="text-xs font-bold text-slate-300">Prix (MAD)</label>
+            <input
+              type="number"
+              step="0.01"
+              name="price"
+              required
+              placeholder="199.00"
+              className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="text-xs font-bold text-slate-300">Prix ancien (MAD - Optionnel)</label>
+            <input
+              type="number"
+              step="0.01"
+              name="oldPrice"
+              placeholder="250.00"
+              className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="text-xs font-bold text-slate-300">Stock initial</label>
+            <input
+              type="number"
+              name="stock"
+              required
+              defaultValue="20"
+              className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+            />
+          </div>
+        </div>
+
+        <div className="space-y-2">
+          <label className="text-xs font-bold text-slate-300">Catégorie</label>
+          <select
+            name="categoryId"
+            required
+            className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-orange-500"
+          >
+            {categories.map((cat) => (
+              <option key={cat.id} value={cat.id}>
+                {cat.nameFr}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="space-y-2">
+          <label className="text-xs font-bold text-slate-300">Description (Français)</label>
+          <textarea
+            name="descriptionFr"
+            required
+            rows={3}
+            placeholder="Description détaillée du produit..."
+            className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+          />
+        </div>
+
+        <div className="space-y-2">
+          <label className="text-xs font-bold text-slate-300">Description (Arabe)</label>
+          <textarea
+            name="descriptionAr"
+            required
+            rows={3}
+            placeholder="وصف المنتج..."
+            className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500"
+          />
+        </div>
+
+        <div className="flex items-center gap-6 pt-2">
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" name="isActive" defaultChecked className="w-4 h-4 rounded text-orange-600 bg-slate-900 border-slate-700" />
+            <span className="text-xs font-semibold text-slate-300">Actif sur le site</span>
+          </label>
+
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" name="isFeatured" className="w-4 h-4 rounded text-orange-600 bg-slate-900 border-slate-700" />
+            <span className="text-xs font-semibold text-slate-300">Produit Vedette (En vedette)</span>
+          </label>
+        </div>
+
+        <div className="pt-4 border-t border-slate-700 flex justify-end gap-4">
+          <Link href="/admin/products" className="px-6 py-3 rounded-xl bg-slate-700 text-slate-300 font-bold text-xs hover:bg-slate-600 transition-colors">
+            Annuler
+          </Link>
+          <button type="submit" className="px-8 py-3 rounded-xl bg-orange-600 text-white font-bold text-xs hover:bg-orange-700 transition-colors shadow-lg">
+            Enregistrer le produit
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}

@@ -1,0 +1,1861 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@12.2.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Users\hp\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache-temp" "--fetch-retries" "5" "--fetch-timeout" "600000" "--fetch-retry-mintimeout" "20000" "--fetch-retry-maxtimeout" "120000"
+9 verbose logfile logs-max:10 dir:C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T19_15_36_625Z-
+10 verbose logfile C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T19_15_36_625Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly fetch manifest @playwright/test@^1.57.0
+16 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 1004ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9690157 disposed:false
+19 silly fetch manifest prisma@6.19.0
+20 silly packumentCache full:https://registry.npmjs.org/prisma cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/prisma 394ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/prisma set size:44066011 disposed:false
+23 silly fetch manifest typescript@^5
+24 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/typescript 233ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/typescript set size:15860892 disposed:false
+27 silly fetch manifest tsx@^4.20.6
+28 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/tsx 154ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/tsx set size:349770 disposed:false
+31 silly fetch manifest vitest@^3.2.4
+32 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/vitest 113ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/vitest set size:2297925 disposed:false
+35 silly fetch manifest @types/node@^20
+36 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 211ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11183996 disposed:false
+39 silly placeDep ROOT @playwright/test@1.64.1 OK for: kids@0.1.0 want: ^1.57.0
+40 silly placeDep ROOT prisma@6.19.0 OK for: kids@0.1.0 want: 6.19.0
+41 silly placeDep ROOT tsx@4.23.15 OK for: kids@0.1.0 want: ^4.20.6
+42 silly placeDep ROOT vitest@3.2.7 OK for: kids@0.1.0 want: ^3.2.4
+43 silly fetch manifest playwright@1.64.1
+44 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+45 silly fetch manifest @prisma/config@6.19.0
+46 silly packumentCache full:https://registry.npmjs.org/@prisma%2fconfig cache-miss
+47 silly fetch manifest @prisma/engines@6.19.0
+48 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/playwright 210ms (cache revalidated)
+50 silly packumentCache full:https://registry.npmjs.org/playwright set size:16940774 disposed:false
+51 silly fetch manifest esbuild@~0.28.0
+52 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/esbuild 150ms (cache revalidated)
+54 silly packumentCache full:https://registry.npmjs.org/esbuild set size:1264676 disposed:false
+55 silly fetch manifest fsevents@~2.3.3
+56 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@prisma%2fconfig 1099ms (cache revalidated)
+58 silly packumentCache full:https://registry.npmjs.org/@prisma%2fconfig set size:3980753 disposed:false
+59 silly fetch manifest chai@^5.2.0
+60 silly packumentCache full:https://registry.npmjs.org/chai cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@prisma%2fengines 1353ms (cache revalidated)
+62 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines set size:21975306 disposed:false
+63 silly fetch manifest vite@^5.0.0 || ^6.0.0 || ^7.0.0-0
+64 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/fsevents 1416ms (cache revalidated)
+66 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+67 silly fetch manifest pathe@^2.0.3
+68 silly packumentCache full:https://registry.npmjs.org/pathe cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/chai 1259ms (cache revalidated)
+70 silly packumentCache full:https://registry.npmjs.org/chai set size:235612 disposed:false
+71 silly fetch manifest std-env@^3.9.0
+72 silly packumentCache full:https://registry.npmjs.org/std-env cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/vite 476ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/vite set size:38999531 disposed:false
+75 silly fetch manifest tinyexec@^0.3.2
+76 silly packumentCache full:https://registry.npmjs.org/tinyexec cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/pathe 1327ms (cache revalidated)
+78 silly packumentCache full:https://registry.npmjs.org/pathe set size:68788 disposed:false
+79 silly fetch manifest tinypool@^1.1.1
+80 silly packumentCache full:https://registry.npmjs.org/tinypool cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/std-env 1348ms (cache revalidated)
+82 silly packumentCache full:https://registry.npmjs.org/std-env set size:92527 disposed:false
+83 silly fetch manifest picomatch@^4.0.2
+84 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/tinyexec 193ms (cache revalidated)
+86 silly packumentCache full:https://registry.npmjs.org/tinyexec set size:68252 disposed:false
+87 silly fetch manifest tinybench@^2.9.0
+88 silly packumentCache full:https://registry.npmjs.org/tinybench cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/tinypool 95ms (cache revalidated)
+90 silly packumentCache full:https://registry.npmjs.org/tinypool set size:99111 disposed:false
+91 silly fetch manifest vite-node@3.2.4
+92 silly packumentCache full:https://registry.npmjs.org/vite-node cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/picomatch 98ms (cache revalidated)
+94 silly packumentCache full:https://registry.npmjs.org/picomatch set size:134451 disposed:false
+95 silly fetch manifest @types/chai@^5.2.2
+96 silly packumentCache full:https://registry.npmjs.org/@types%2fchai cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/tinybench 102ms (cache revalidated)
+98 silly packumentCache full:https://registry.npmjs.org/tinybench set size:190903 disposed:false
+99 silly fetch manifest @vitest/spy@3.2.7
+100 silly packumentCache full:https://registry.npmjs.org/@vitest%2fspy cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/vite-node 98ms (cache revalidated)
+102 silly packumentCache full:https://registry.npmjs.org/vite-node set size:1079451 disposed:false
+103 silly fetch manifest expect-type@^1.2.1
+104 silly packumentCache full:https://registry.npmjs.org/expect-type cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@types%2fchai 101ms (cache revalidated)
+106 silly packumentCache full:https://registry.npmjs.org/@types%2fchai set size:226292 disposed:false
+107 silly fetch manifest tinyrainbow@^2.0.0
+108 silly packumentCache full:https://registry.npmjs.org/tinyrainbow cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@vitest%2fspy 108ms (cache revalidated)
+110 silly packumentCache full:https://registry.npmjs.org/@vitest%2fspy set size:478214 disposed:false
+111 silly fetch manifest @vitest/utils@3.2.7
+112 silly packumentCache full:https://registry.npmjs.org/@vitest%2futils cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/expect-type 100ms (cache revalidated)
+114 silly packumentCache full:https://registry.npmjs.org/expect-type set size:191241 disposed:false
+115 silly fetch manifest @vitest/expect@3.2.7
+116 silly packumentCache full:https://registry.npmjs.org/@vitest%2fexpect cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/tinyrainbow 121ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/tinyrainbow set size:33211 disposed:false
+119 silly fetch manifest @vitest/mocker@3.2.7
+120 silly packumentCache full:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@vitest%2futils 118ms (cache revalidated)
+122 silly packumentCache full:https://registry.npmjs.org/@vitest%2futils set size:631961 disposed:false
+123 silly fetch manifest @vitest/runner@3.2.7
+124 silly packumentCache full:https://registry.npmjs.org/@vitest%2frunner cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@vitest%2fexpect 183ms (cache revalidated)
+126 silly packumentCache full:https://registry.npmjs.org/@vitest%2fexpect set size:516222 disposed:false
+127 silly fetch manifest @vitest/snapshot@3.2.7
+128 silly packumentCache full:https://registry.npmjs.org/@vitest%2fsnapshot cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 207ms (cache revalidated)
+130 silly packumentCache full:https://registry.npmjs.org/@vitest%2fmocker set size:378316 disposed:false
+131 silly fetch manifest why-is-node-running@^2.3.0
+132 silly packumentCache full:https://registry.npmjs.org/why-is-node-running cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@vitest%2frunner 215ms (cache revalidated)
+134 silly packumentCache full:https://registry.npmjs.org/@vitest%2frunner set size:470591 disposed:false
+135 silly fetch manifest @vitest/pretty-format@^3.2.7
+136 silly packumentCache full:https://registry.npmjs.org/@vitest%2fpretty-format cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@vitest%2fsnapshot 138ms (cache revalidated)
+138 silly packumentCache full:https://registry.npmjs.org/@vitest%2fsnapshot set size:493907 disposed:false
+139 http fetch GET 200 https://registry.npmjs.org/why-is-node-running 99ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmjs.org/why-is-node-running set size:52620 disposed:false
+141 http fetch GET 200 https://registry.npmjs.org/@vitest%2fpretty-format 99ms (cache revalidated)
+142 silly packumentCache full:https://registry.npmjs.org/@vitest%2fpretty-format set size:315358 disposed:false
+143 silly placeDep ROOT playwright@1.64.1 OK for: @playwright/test@1.64.1 want: 1.64.1
+144 silly fetch manifest playwright-core@1.64.1
+145 silly packumentCache full:https://registry.npmjs.org/playwright-core cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/playwright-core 305ms (cache revalidated)
+147 silly packumentCache full:https://registry.npmjs.org/playwright-core set size:18608295 disposed:false
+148 silly placeDep ROOT playwright-core@1.64.1 OK for: playwright@1.64.1 want: 1.64.1
+149 silly placeDep ROOT @prisma/config@6.19.0 OK for: prisma@6.19.0 want: 6.19.0
+150 silly placeDep ROOT @prisma/engines@6.19.0 OK for: prisma@6.19.0 want: 6.19.0
+151 silly fetch manifest c12@3.1.0
+152 silly packumentCache full:https://registry.npmjs.org/c12 cache-miss
+153 silly fetch manifest effect@3.18.4
+154 silly packumentCache full:https://registry.npmjs.org/effect cache-miss
+155 silly fetch manifest empathic@2.0.0
+156 silly packumentCache full:https://registry.npmjs.org/empathic cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/c12 132ms (cache revalidated)
+158 silly packumentCache full:https://registry.npmjs.org/c12 set size:204850 disposed:false
+159 silly fetch manifest deepmerge-ts@7.1.5
+160 silly packumentCache full:https://registry.npmjs.org/deepmerge-ts cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/effect 274ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmjs.org/effect set size:10467767 disposed:false
+163 silly fetch manifest @prisma/debug@6.19.0
+164 silly packumentCache full:https://registry.npmjs.org/@prisma%2fdebug cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/empathic 1562ms (cache revalidated)
+166 silly packumentCache full:https://registry.npmjs.org/empathic set size:22562 disposed:false
+167 silly fetch manifest @prisma/fetch-engine@6.19.0
+168 silly packumentCache full:https://registry.npmjs.org/@prisma%2ffetch-engine cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/deepmerge-ts 1828ms (cache revalidated)
+170 silly packumentCache full:https://registry.npmjs.org/deepmerge-ts set size:361128 disposed:false
+171 silly fetch manifest @prisma/get-platform@6.19.0
+172 silly packumentCache full:https://registry.npmjs.org/@prisma%2fget-platform cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/@prisma%2fdebug 1583ms (cache revalidated)
+174 silly packumentCache full:https://registry.npmjs.org/@prisma%2fdebug set size:28952638 disposed:false
+175 silly fetch manifest @prisma/engines-version@6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773
+176 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines-version cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@prisma%2ffetch-engine 3165ms (cache revalidated)
+178 silly packumentCache full:https://registry.npmjs.org/@prisma%2ffetch-engine set size:32535202 disposed:false
+179 http fetch GET 200 https://registry.npmjs.org/@prisma%2fget-platform 3906ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/@prisma%2fget-platform set size:28626448 disposed:false
+181 http fetch GET 200 https://registry.npmjs.org/@prisma%2fengines-version 2601ms (cache revalidated)
+182 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines-version set size:9952807 disposed:false
+183 silly placeDep ROOT c12@3.1.0 OK for: @prisma/config@6.19.0 want: 3.1.0
+184 silly placeDep ROOT deepmerge-ts@7.1.5 OK for: @prisma/config@6.19.0 want: 7.1.5
+185 silly placeDep ROOT effect@3.18.4 OK for: @prisma/config@6.19.0 want: 3.18.4
+186 silly placeDep ROOT empathic@2.0.0 OK for: @prisma/config@6.19.0 want: 2.0.0
+187 silly fetch manifest rc9@^2.1.2
+188 silly packumentCache full:https://registry.npmjs.org/rc9 cache-miss
+189 silly fetch manifest defu@^6.1.4
+190 silly packumentCache full:https://registry.npmjs.org/defu cache-miss
+191 silly fetch manifest giget@^2.0.0
+192 silly packumentCache full:https://registry.npmjs.org/giget cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/rc9 240ms (cache revalidated)
+194 silly packumentCache full:https://registry.npmjs.org/rc9 set size:64811 disposed:false
+195 silly fetch manifest ohash@^2.0.11
+196 silly packumentCache full:https://registry.npmjs.org/ohash cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/defu 246ms (cache revalidated)
+198 silly packumentCache full:https://registry.npmjs.org/defu set size:87806 disposed:false
+199 silly fetch manifest dotenv@^16.6.1
+200 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/giget 251ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/giget set size:102437 disposed:false
+203 silly fetch manifest confbox@^0.2.2
+204 silly packumentCache full:https://registry.npmjs.org/confbox cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/ohash 178ms (cache revalidated)
+206 silly packumentCache full:https://registry.npmjs.org/ohash set size:71846 disposed:false
+207 silly fetch manifest exsolve@^1.0.7
+208 silly packumentCache full:https://registry.npmjs.org/exsolve cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/dotenv 193ms (cache revalidated)
+210 silly packumentCache full:https://registry.npmjs.org/dotenv set size:306414 disposed:false
+211 silly fetch manifest chokidar@^4.0.3
+212 silly packumentCache full:https://registry.npmjs.org/chokidar cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/confbox 294ms (cache revalidated)
+214 silly packumentCache full:https://registry.npmjs.org/confbox set size:49622 disposed:false
+215 silly fetch manifest pkg-types@^2.2.0
+216 silly packumentCache full:https://registry.npmjs.org/pkg-types cache-miss
+217 http fetch GET 200 https://registry.npmjs.org/exsolve 160ms (cache revalidated)
+218 silly packumentCache full:https://registry.npmjs.org/exsolve set size:67788 disposed:false
+219 silly fetch manifest perfect-debounce@^1.0.0
+220 silly packumentCache full:https://registry.npmjs.org/perfect-debounce cache-miss
+221 http fetch GET 200 https://registry.npmjs.org/chokidar 152ms (cache revalidated)
+222 silly packumentCache full:https://registry.npmjs.org/chokidar set size:257787 disposed:false
+223 silly fetch manifest fast-check@^3.23.1
+224 silly packumentCache full:https://registry.npmjs.org/fast-check cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/pkg-types 118ms (cache revalidated)
+226 silly packumentCache full:https://registry.npmjs.org/pkg-types set size:96616 disposed:false
+227 silly fetch manifest @standard-schema/spec@^1.0.0
+228 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/perfect-debounce 94ms (cache revalidated)
+230 silly packumentCache full:https://registry.npmjs.org/perfect-debounce set size:28201 disposed:false
+231 http fetch GET 200 https://registry.npmjs.org/fast-check 94ms (cache revalidated)
+232 silly packumentCache full:https://registry.npmjs.org/fast-check set size:957756 disposed:false
+233 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2fspec 109ms (cache revalidated)
+234 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec set size:27284 disposed:false
+235 silly placeDep ROOT @prisma/debug@6.19.0 OK for: @prisma/engines@6.19.0 want: 6.19.0
+236 silly placeDep ROOT @prisma/engines-version@6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773 OK for: @prisma/engines@6.19.0 want: 6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773
+237 silly placeDep ROOT @prisma/fetch-engine@6.19.0 OK for: @prisma/engines@6.19.0 want: 6.19.0
+238 silly placeDep ROOT @prisma/get-platform@6.19.0 OK for: @prisma/engines@6.19.0 want: 6.19.0
+239 silly placeDep ROOT chokidar@4.0.3 OK for: c12@3.1.0 want: ^4.0.3
+240 silly placeDep ROOT confbox@0.2.4 OK for: c12@3.1.0 want: ^0.2.2
+241 silly placeDep ROOT defu@6.1.7 OK for: c12@3.1.0 want: ^6.1.4
+242 silly placeDep ROOT dotenv@16.6.1 OK for: c12@3.1.0 want: ^16.6.1
+243 silly placeDep ROOT exsolve@1.2.0 OK for: c12@3.1.0 want: ^1.0.7
+244 silly placeDep ROOT giget@2.0.0 OK for: c12@3.1.0 want: ^2.0.0
+245 silly placeDep ROOT ohash@2.0.12 OK for: c12@3.1.0 want: ^2.0.11
+246 silly placeDep ROOT pathe@2.0.3 OK for: c12@3.1.0 want: ^2.0.3
+247 silly placeDep ROOT perfect-debounce@1.0.0 OK for: c12@3.1.0 want: ^1.0.0
+248 silly placeDep ROOT pkg-types@2.4.0 OK for: c12@3.1.0 want: ^2.2.0
+249 silly placeDep ROOT rc9@2.1.2 OK for: c12@3.1.0 want: ^2.1.2
+250 silly fetch manifest readdirp@^4.0.1
+251 silly packumentCache full:https://registry.npmjs.org/readdirp cache-miss
+252 silly fetch manifest nypm@^0.6.0
+253 silly packumentCache full:https://registry.npmjs.org/nypm cache-miss
+254 silly fetch manifest citty@^0.1.6
+255 silly packumentCache full:https://registry.npmjs.org/citty cache-miss
+256 http fetch GET 200 https://registry.npmjs.org/readdirp 107ms (cache revalidated)
+257 silly packumentCache full:https://registry.npmjs.org/readdirp set size:110119 disposed:false
+258 silly fetch manifest consola@^3.4.0
+259 silly packumentCache full:https://registry.npmjs.org/consola cache-miss
+260 http fetch GET 200 https://registry.npmjs.org/nypm 113ms (cache revalidated)
+261 silly packumentCache full:https://registry.npmjs.org/nypm set size:97390 disposed:false
+262 silly fetch manifest node-fetch-native@^1.6.6
+263 silly packumentCache full:https://registry.npmjs.org/node-fetch-native cache-miss
+264 http fetch GET 200 https://registry.npmjs.org/citty 123ms (cache revalidated)
+265 silly packumentCache full:https://registry.npmjs.org/citty set size:38628 disposed:false
+266 silly fetch manifest confbox@^0.3.1
+267 silly packumentCache full:https://registry.npmjs.org/confbox cache-hit
+268 silly fetch manifest destr@^2.0.3
+269 silly packumentCache full:https://registry.npmjs.org/destr cache-miss
+270 http fetch GET 200 https://registry.npmjs.org/consola 116ms (cache revalidated)
+271 silly packumentCache full:https://registry.npmjs.org/consola set size:324648 disposed:false
+272 http fetch GET 200 https://registry.npmjs.org/node-fetch-native 269ms (cache revalidated)
+273 silly packumentCache full:https://registry.npmjs.org/node-fetch-native set size:114626 disposed:false
+274 http fetch GET 200 https://registry.npmjs.org/destr 294ms (cache revalidated)
+275 silly packumentCache full:https://registry.npmjs.org/destr set size:65344 disposed:false
+276 silly placeDep ROOT readdirp@4.1.2 OK for: chokidar@4.0.3 want: ^4.0.1
+277 silly placeDep ROOT @standard-schema/spec@1.1.0 OK for: effect@3.18.4 want: ^1.0.0
+278 silly placeDep ROOT fast-check@3.23.2 OK for: effect@3.18.4 want: ^3.23.1
+279 silly fetch manifest pure-rand@^6.1.0
+280 silly packumentCache full:https://registry.npmjs.org/pure-rand cache-miss
+281 http fetch GET 200 https://registry.npmjs.org/pure-rand 96ms (cache revalidated)
+282 silly packumentCache full:https://registry.npmjs.org/pure-rand set size:186002 disposed:false
+283 silly placeDep ROOT pure-rand@6.1.0 OK for: fast-check@3.23.2 want: ^6.1.0
+284 silly placeDep ROOT citty@0.1.6 OK for: giget@2.0.0 want: ^0.1.6
+285 silly placeDep ROOT consola@3.4.2 OK for: giget@2.0.0 want: ^3.4.0
+286 silly placeDep ROOT node-fetch-native@1.6.7 OK for: giget@2.0.0 want: ^1.6.6
+287 silly placeDep ROOT nypm@0.6.12 OK for: giget@2.0.0 want: ^0.6.0
+288 silly fetch manifest consola@^3.2.3
+289 silly packumentCache full:https://registry.npmjs.org/consola cache-hit
+290 silly fetch manifest citty@^0.2.2
+291 silly packumentCache full:https://registry.npmjs.org/citty cache-hit
+292 silly fetch manifest tinyexec@^1.3.1
+293 silly packumentCache full:https://registry.npmjs.org/tinyexec cache-hit
+294 silly placeDep node_modules/nypm citty@0.2.2 OK for: nypm@0.6.12 want: ^0.2.2
+295 silly placeDep ROOT tinyexec@1.3.1 OK for: nypm@0.6.12 want: ^1.3.1
+296 silly placeDep node_modules/pkg-types confbox@0.3.1 OK for: pkg-types@2.4.0 want: ^0.3.1
+297 silly placeDep ROOT destr@2.0.5 OK for: rc9@2.1.2 want: ^2.0.3
+298 silly placeDep ROOT esbuild@0.28.2 OK for: tsx@4.23.15 want: ~0.28.0
+299 silly placeDep ROOT fsevents@2.3.3 OK for: tsx@4.23.15 want: ~2.3.3
+300 silly fetch manifest @esbuild/aix-ppc64@0.28.2
+301 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+302 silly fetch manifest @esbuild/linux-arm@0.28.2
+303 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+304 silly fetch manifest @esbuild/linux-x64@0.28.2
+305 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+306 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 116ms (cache revalidated)
+307 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:67797 disposed:false
+308 silly fetch manifest @esbuild/sunos-x64@0.28.2
+309 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+310 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 125ms (cache revalidated)
+311 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:198596 disposed:false
+312 silly fetch manifest @esbuild/win32-x64@0.28.2
+313 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+314 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 137ms (cache revalidated)
+315 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:198942 disposed:false
+316 silly fetch manifest @esbuild/darwin-x64@0.28.2
+317 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+318 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 99ms (cache revalidated)
+319 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:199187 disposed:false
+320 silly fetch manifest @esbuild/linux-ia32@0.28.2
+321 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+322 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 115ms (cache revalidated)
+323 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:197540 disposed:false
+324 silly fetch manifest @esbuild/netbsd-x64@0.28.2
+325 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+326 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 106ms (cache revalidated)
+327 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:199670 disposed:false
+328 silly fetch manifest @esbuild/win32-ia32@0.28.2
+329 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+330 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 89ms (cache revalidated)
+331 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:199625 disposed:false
+332 silly fetch manifest @esbuild/android-arm@0.28.2
+333 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+334 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 106ms (cache revalidated)
+335 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:197314 disposed:false
+336 silly fetch manifest @esbuild/android-x64@0.28.2
+337 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+338 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 113ms (cache revalidated)
+339 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:199854 disposed:false
+340 silly fetch manifest @esbuild/freebsd-x64@0.28.2
+341 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+342 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 93ms (cache revalidated)
+343 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:225217 disposed:false
+344 silly fetch manifest @esbuild/linux-arm64@0.28.2
+345 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+346 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 123ms (cache revalidated)
+347 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:199017 disposed:false
+348 silly fetch manifest @esbuild/linux-ppc64@0.28.2
+349 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+350 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 123ms (cache revalidated)
+351 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:200565 disposed:false
+352 silly fetch manifest @esbuild/linux-s390x@0.28.2
+353 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+354 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 95ms (cache revalidated)
+355 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:200773 disposed:false
+356 silly fetch manifest @esbuild/openbsd-x64@0.28.2
+357 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+358 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 199ms (cache revalidated)
+359 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:202845 disposed:false
+360 silly fetch manifest @esbuild/win32-arm64@0.28.2
+361 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+362 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 186ms (cache revalidated)
+363 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:200576 disposed:false
+364 silly fetch manifest @esbuild/darwin-arm64@0.28.2
+365 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+366 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 209ms (cache revalidated)
+367 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:202310 disposed:false
+368 silly fetch manifest @esbuild/netbsd-arm64@0.28.2
+369 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 cache-miss
+370 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 117ms (cache revalidated)
+371 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:201005 disposed:false
+372 silly fetch manifest @esbuild/android-arm64@0.28.2
+373 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+374 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 108ms (cache revalidated)
+375 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 set size:44308 disposed:false
+376 silly fetch manifest @esbuild/freebsd-arm64@0.28.2
+377 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+378 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 144ms (cache revalidated)
+379 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:201471 disposed:false
+380 silly fetch manifest @esbuild/linux-loong64@0.28.2
+381 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+382 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 106ms (cache revalidated)
+383 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:202383 disposed:false
+384 silly fetch manifest @esbuild/linux-riscv64@0.28.2
+385 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+386 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 134ms (cache revalidated)
+387 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:204216 disposed:false
+388 silly fetch manifest @esbuild/openbsd-arm64@0.28.2
+389 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 cache-miss
+390 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 105ms (cache revalidated)
+391 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:255749 disposed:false
+392 silly fetch manifest @esbuild/linux-mips64el@0.28.2
+393 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+394 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 122ms (cache revalidated)
+395 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:202512 disposed:false
+396 silly fetch manifest @esbuild/openharmony-arm64@0.28.2
+397 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 cache-miss
+398 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 120ms (cache revalidated)
+399 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 set size:49642 disposed:false
+400 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 112ms (cache revalidated)
+401 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:204633 disposed:false
+402 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 127ms (cache revalidated)
+403 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 set size:33054 disposed:false
+404 silly placeDep ROOT @esbuild/aix-ppc64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+405 silly placeDep ROOT @esbuild/android-arm@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+406 silly placeDep ROOT @esbuild/android-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+407 silly placeDep ROOT @esbuild/android-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+408 silly placeDep ROOT @esbuild/darwin-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+409 silly placeDep ROOT @esbuild/darwin-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+410 silly placeDep ROOT @esbuild/freebsd-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+411 silly placeDep ROOT @esbuild/freebsd-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+412 silly placeDep ROOT @esbuild/linux-arm@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+413 silly placeDep ROOT @esbuild/linux-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+414 silly placeDep ROOT @esbuild/linux-ia32@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+415 silly placeDep ROOT @esbuild/linux-loong64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+416 silly placeDep ROOT @esbuild/linux-mips64el@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+417 silly placeDep ROOT @esbuild/linux-ppc64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+418 silly placeDep ROOT @esbuild/linux-riscv64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+419 silly placeDep ROOT @esbuild/linux-s390x@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+420 silly placeDep ROOT @esbuild/linux-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+421 silly placeDep ROOT @esbuild/netbsd-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+422 silly placeDep ROOT @esbuild/netbsd-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+423 silly placeDep ROOT @esbuild/openbsd-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+424 silly placeDep ROOT @esbuild/openbsd-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+425 silly placeDep ROOT @esbuild/openharmony-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+426 silly placeDep ROOT @esbuild/sunos-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+427 silly placeDep ROOT @esbuild/win32-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+428 silly placeDep ROOT @esbuild/win32-ia32@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+429 silly placeDep ROOT @esbuild/win32-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+430 silly fetch manifest @types/node@^18.0.0 || ^20.0.0 || >=22.0.0
+431 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+432 http cache https://registry.npmjs.org/@types%2fnode 76ms (cache hit)
+433 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11183996 disposed:false
+434 silly placeDep ROOT @types/chai@5.2.3 OK for: vitest@3.2.7 want: ^5.2.2
+435 silly placeDep ROOT @vitest/expect@3.2.7 OK for: vitest@3.2.7 want: 3.2.7
+436 silly placeDep ROOT @vitest/mocker@3.2.7 OK for: vitest@3.2.7 want: 3.2.7
+437 silly placeDep ROOT @vitest/pretty-format@3.2.7 OK for: vitest@3.2.7 want: ^3.2.7
+438 silly placeDep ROOT @vitest/runner@3.2.7 OK for: vitest@3.2.7 want: 3.2.7
+439 silly placeDep ROOT @vitest/snapshot@3.2.7 OK for: vitest@3.2.7 want: 3.2.7
+440 silly placeDep ROOT @vitest/spy@3.2.7 OK for: vitest@3.2.7 want: 3.2.7
+441 silly placeDep ROOT @vitest/utils@3.2.7 OK for: vitest@3.2.7 want: 3.2.7
+442 silly placeDep ROOT chai@5.3.3 OK for: vitest@3.2.7 want: ^5.2.0
+443 silly placeDep ROOT expect-type@1.4.0 OK for: vitest@3.2.7 want: ^1.2.1
+444 silly placeDep node_modules/vitest picomatch@4.0.7 OK for: vitest@3.2.7 want: ^4.0.2
+445 silly placeDep ROOT std-env@3.10.0 OK for: vitest@3.2.7 want: ^3.9.0
+446 silly placeDep ROOT tinybench@2.9.0 OK for: vitest@3.2.7 want: ^2.9.0
+447 silly placeDep node_modules/vitest tinyexec@0.3.2 OK for: vitest@3.2.7 want: ^0.3.2
+448 silly placeDep ROOT tinypool@1.1.1 OK for: vitest@3.2.7 want: ^1.1.1
+449 silly placeDep ROOT tinyrainbow@2.0.0 OK for: vitest@3.2.7 want: ^2.0.0
+450 silly placeDep ROOT vite@7.3.7 OK for: vitest@3.2.7 want: ^5.0.0 || ^6.0.0 || ^7.0.0-0
+451 silly placeDep ROOT vite-node@3.2.4 OK for: vitest@3.2.7 want: 3.2.4
+452 silly placeDep ROOT why-is-node-running@2.3.0 OK for: vitest@3.2.7 want: ^2.3.0
+453 silly fetch manifest @types/deep-eql@*
+454 silly packumentCache full:https://registry.npmjs.org/@types%2fdeep-eql cache-miss
+455 silly fetch manifest assertion-error@^2.0.1
+456 silly packumentCache full:https://registry.npmjs.org/assertion-error cache-miss
+457 silly fetch manifest estree-walker@^3.0.3
+458 silly packumentCache full:https://registry.npmjs.org/estree-walker cache-miss
+459 http fetch GET 200 https://registry.npmjs.org/@types%2fdeep-eql 118ms (cache revalidated)
+460 silly packumentCache full:https://registry.npmjs.org/@types%2fdeep-eql set size:6443 disposed:false
+461 silly fetch manifest strip-literal@^3.0.0
+462 silly packumentCache full:https://registry.npmjs.org/strip-literal cache-miss
+463 http fetch GET 200 https://registry.npmjs.org/assertion-error 122ms (cache revalidated)
+464 silly packumentCache full:https://registry.npmjs.org/assertion-error set size:14438 disposed:false
+465 silly fetch manifest tinyspy@^4.0.3
+466 silly packumentCache full:https://registry.npmjs.org/tinyspy cache-miss
+467 http fetch GET 200 https://registry.npmjs.org/estree-walker 124ms (cache revalidated)
+468 silly packumentCache full:https://registry.npmjs.org/estree-walker set size:60887 disposed:false
+469 silly fetch manifest loupe@^3.1.4
+470 silly packumentCache full:https://registry.npmjs.org/loupe cache-miss
+471 http fetch GET 200 https://registry.npmjs.org/loupe 100ms (cache revalidated)
+472 silly packumentCache full:https://registry.npmjs.org/loupe set size:150836 disposed:false
+473 silly fetch manifest loupe@^3.1.0
+474 silly packumentCache full:https://registry.npmjs.org/loupe cache-hit
+475 silly fetch manifest pathval@^2.0.0
+476 silly packumentCache full:https://registry.npmjs.org/pathval cache-miss
+477 http fetch GET 200 https://registry.npmjs.org/tinyspy 116ms (cache revalidated)
+478 silly packumentCache full:https://registry.npmjs.org/tinyspy set size:131163 disposed:false
+479 silly fetch manifest deep-eql@^5.0.1
+480 silly packumentCache full:https://registry.npmjs.org/deep-eql cache-miss
+481 http fetch GET 200 https://registry.npmjs.org/deep-eql 91ms (cache revalidated)
+482 silly packumentCache full:https://registry.npmjs.org/deep-eql set size:73324 disposed:false
+483 silly fetch manifest check-error@^2.1.1
+484 silly packumentCache full:https://registry.npmjs.org/check-error cache-miss
+485 http fetch GET 200 https://registry.npmjs.org/pathval 102ms (cache revalidated)
+486 silly packumentCache full:https://registry.npmjs.org/pathval set size:28664 disposed:false
+487 silly fetch manifest fdir@^6.5.0
+488 silly packumentCache full:https://registry.npmjs.org/fdir cache-miss
+489 http fetch GET 200 https://registry.npmjs.org/strip-literal 265ms (cache revalidated)
+490 silly packumentCache full:https://registry.npmjs.org/strip-literal set size:47617 disposed:false
+491 silly fetch manifest rollup@^4.43.0
+492 silly packumentCache full:https://registry.npmjs.org/rollup cache-miss
+493 http fetch GET 200 https://registry.npmjs.org/check-error 89ms (cache revalidated)
+494 silly packumentCache full:https://registry.npmjs.org/check-error set size:28618 disposed:false
+495 silly fetch manifest picomatch@^4.0.3
+496 silly packumentCache full:https://registry.npmjs.org/picomatch cache-hit
+497 silly fetch manifest cac@^6.7.14
+498 silly packumentCache full:https://registry.npmjs.org/cac cache-miss
+499 http fetch GET 200 https://registry.npmjs.org/fdir 97ms (cache revalidated)
+500 silly packumentCache full:https://registry.npmjs.org/fdir set size:136182 disposed:false
+501 silly fetch manifest es-module-lexer@^1.7.0
+502 silly packumentCache full:https://registry.npmjs.org/es-module-lexer cache-miss
+503 http fetch GET 200 https://registry.npmjs.org/rollup 111ms (cache revalidated)
+504 silly packumentCache full:https://registry.npmjs.org/rollup set size:6591402 disposed:false
+505 silly fetch manifest siginfo@^2.0.0
+506 silly packumentCache full:https://registry.npmjs.org/siginfo cache-miss
+507 http fetch GET 200 https://registry.npmjs.org/cac 353ms (cache revalidated)
+508 silly packumentCache full:https://registry.npmjs.org/cac set size:380910 disposed:false
+509 silly fetch manifest stackback@0.0.2
+510 silly packumentCache full:https://registry.npmjs.org/stackback cache-miss
+511 http fetch GET 200 https://registry.npmjs.org/es-module-lexer 353ms (cache revalidated)
+512 silly packumentCache full:https://registry.npmjs.org/es-module-lexer set size:235276 disposed:false
+513 http fetch GET 200 https://registry.npmjs.org/siginfo 116ms (cache revalidated)
+514 silly packumentCache full:https://registry.npmjs.org/siginfo set size:8524 disposed:false
+515 http fetch GET 200 https://registry.npmjs.org/stackback 101ms (cache revalidated)
+516 silly packumentCache full:https://registry.npmjs.org/stackback set size:4594 disposed:false
+517 silly placeDep ROOT @types/deep-eql@4.0.2 OK for: @types/chai@5.2.3 want: *
+518 silly placeDep ROOT assertion-error@2.0.1 OK for: @types/chai@5.2.3 want: ^2.0.1
+519 silly placeDep ROOT estree-walker@3.0.3 OK for: @vitest/mocker@3.2.7 want: ^3.0.3
+520 silly placeDep ROOT strip-literal@3.1.0 OK for: @vitest/runner@3.2.7 want: ^3.0.0
+521 silly fetch manifest js-tokens@^9.0.1
+522 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+523 http fetch GET 200 https://registry.npmjs.org/js-tokens 93ms (cache revalidated)
+524 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:41947 disposed:false
+525 silly placeDep ROOT tinyspy@4.0.6 OK for: @vitest/spy@3.2.7 want: ^4.0.3
+526 silly placeDep ROOT loupe@3.2.1 OK for: @vitest/utils@3.2.7 want: ^3.1.4
+527 silly placeDep ROOT check-error@2.1.3 OK for: chai@5.3.3 want: ^2.1.1
+528 silly placeDep ROOT deep-eql@5.0.2 OK for: chai@5.3.3 want: ^5.0.1
+529 silly placeDep ROOT pathval@2.0.1 OK for: chai@5.3.3 want: ^2.0.0
+530 silly placeDep node_modules/strip-literal js-tokens@9.0.1 OK for: strip-literal@3.1.0 want: ^9.0.1
+531 silly placeDep node_modules/vite fdir@6.5.0 OK for: vite@7.3.7 want: ^6.5.0
+532 silly placeDep node_modules/vite picomatch@4.0.7 OK for: fdir@6.5.0 want: ^3 || ^4
+533 silly placeDep ROOT rollup@4.66.0 OK for: vite@7.3.7 want: ^4.43.0
+534 silly fetch manifest @rollup/rollup-darwin-x64@4.66.0
+535 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 cache-miss
+536 silly fetch manifest @rollup/rollup-freebsd-x64@4.66.0
+537 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 cache-miss
+538 silly fetch manifest @rollup/rollup-openbsd-x64@4.66.0
+539 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 cache-miss
+540 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-x64 112ms (cache revalidated)
+541 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 set size:398385 disposed:false
+542 silly fetch manifest @napi-rs/lzma-linux-x64-gnu@1.5.1
+543 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu cache-miss
+544 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 126ms (cache revalidated)
+545 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 set size:93969 disposed:false
+546 silly fetch manifest @rollup/rollup-darwin-arm64@4.66.0
+547 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 cache-miss
+548 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 133ms (cache revalidated)
+549 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 set size:249233 disposed:false
+550 silly fetch manifest @rollup/rollup-android-arm64@4.66.0
+551 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 cache-miss
+552 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu 112ms (cache revalidated)
+553 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu set size:31508 disposed:false
+554 silly fetch manifest @rollup/rollup-freebsd-arm64@4.66.0
+555 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 cache-miss
+556 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 115ms (cache revalidated)
+557 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 set size:403713 disposed:false
+558 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.66.0
+559 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu cache-miss
+560 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm64 123ms (cache revalidated)
+561 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 set size:405480 disposed:false
+562 silly fetch manifest @rollup/rollup-win32-x64-gnu@4.66.0
+563 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu cache-miss
+564 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 109ms (cache revalidated)
+565 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 set size:253681 disposed:false
+566 silly fetch manifest @rollup/rollup-linux-x64-musl@4.66.0
+567 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl cache-miss
+568 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 122ms (cache revalidated)
+569 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu set size:404640 disposed:false
+570 silly fetch manifest @rollup/rollup-win32-x64-msvc@4.66.0
+571 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc cache-miss
+572 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu 117ms (cache revalidated)
+573 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu set size:126991 disposed:false
+574 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.66.0
+575 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu cache-miss
+576 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 112ms (cache revalidated)
+577 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl set size:404183 disposed:false
+578 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.66.0
+579 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu cache-miss
+580 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 111ms (cache revalidated)
+581 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc set size:404132 disposed:false
+582 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.66.0
+583 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu cache-miss
+584 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 167ms (cache revalidated)
+585 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu set size:156761 disposed:false
+586 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.66.0
+587 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc cache-miss
+588 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 143ms (cache revalidated)
+589 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu set size:311929 disposed:false
+590 silly fetch manifest @rollup/rollup-android-arm-eabi@4.66.0
+591 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi cache-miss
+592 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 307ms (cache revalidated)
+593 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu set size:412081 disposed:false
+594 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.66.0
+595 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl cache-miss
+596 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 159ms (cache revalidated)
+597 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc set size:407754 disposed:false
+598 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.66.0
+599 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl cache-miss
+600 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 176ms (cache revalidated)
+601 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi set size:409511 disposed:false
+602 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.66.0
+603 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc cache-miss
+604 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 107ms (cache revalidated)
+605 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl set size:98488 disposed:false
+606 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.66.0
+607 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu cache-miss
+608 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 103ms (cache revalidated)
+609 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc set size:409504 disposed:false
+610 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.66.0
+611 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu cache-miss
+612 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 302ms (cache revalidated)
+613 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl set size:367662 disposed:false
+614 silly fetch manifest @rollup/rollup-openharmony-arm64@4.66.0
+615 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 cache-miss
+616 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 102ms (cache revalidated)
+617 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu set size:338751 disposed:false
+618 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.66.0
+619 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl cache-miss
+620 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 96ms (cache revalidated)
+621 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 set size:135450 disposed:false
+622 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.66.0
+623 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl cache-miss
+624 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 101ms (cache revalidated)
+625 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl set size:99277 disposed:false
+626 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.66.0
+627 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf cache-miss
+628 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 248ms (cache revalidated)
+629 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu set size:137067 disposed:false
+630 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.66.0
+631 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf cache-miss
+632 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 100ms (cache revalidated)
+633 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl set size:184941 disposed:false
+634 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 101ms (cache revalidated)
+635 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf set size:416435 disposed:false
+636 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 257ms (cache revalidated)
+637 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf set size:310812 disposed:false
+638 silly placeDep ROOT @napi-rs/lzma-linux-x64-gnu@1.5.1 OK for: rollup@4.66.0 want: 1.5.1
+639 silly placeDep ROOT @rollup/rollup-android-arm-eabi@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+640 silly placeDep ROOT @rollup/rollup-android-arm64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+641 silly placeDep ROOT @rollup/rollup-darwin-arm64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+642 silly placeDep ROOT @rollup/rollup-darwin-x64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+643 silly placeDep ROOT @rollup/rollup-freebsd-arm64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+644 silly placeDep ROOT @rollup/rollup-freebsd-x64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+645 silly placeDep ROOT @rollup/rollup-linux-arm-gnueabihf@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+646 silly placeDep ROOT @rollup/rollup-linux-arm-musleabihf@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+647 silly placeDep ROOT @rollup/rollup-linux-arm64-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+648 silly placeDep ROOT @rollup/rollup-linux-arm64-musl@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+649 silly placeDep ROOT @rollup/rollup-linux-loong64-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+650 silly placeDep ROOT @rollup/rollup-linux-loong64-musl@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+651 silly placeDep ROOT @rollup/rollup-linux-ppc64-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+652 silly placeDep ROOT @rollup/rollup-linux-ppc64-musl@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+653 silly placeDep ROOT @rollup/rollup-linux-riscv64-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+654 silly placeDep ROOT @rollup/rollup-linux-riscv64-musl@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+655 silly placeDep ROOT @rollup/rollup-linux-s390x-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+656 silly placeDep ROOT @rollup/rollup-linux-x64-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+657 silly placeDep ROOT @rollup/rollup-linux-x64-musl@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+658 silly placeDep ROOT @rollup/rollup-openbsd-x64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+659 silly placeDep ROOT @rollup/rollup-openharmony-arm64@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+660 silly placeDep ROOT @rollup/rollup-win32-arm64-msvc@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+661 silly placeDep ROOT @rollup/rollup-win32-ia32-msvc@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+662 silly placeDep ROOT @rollup/rollup-win32-x64-gnu@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+663 silly placeDep ROOT @rollup/rollup-win32-x64-msvc@4.66.0 OK for: rollup@4.66.0 want: 4.66.0
+664 silly placeDep ROOT cac@6.7.14 OK for: vite-node@3.2.4 want: ^6.7.14
+665 silly placeDep ROOT es-module-lexer@1.7.0 OK for: vite-node@3.2.4 want: ^1.7.0
+666 silly placeDep ROOT siginfo@2.0.0 OK for: why-is-node-running@2.3.0 want: ^2.0.0
+667 silly placeDep ROOT stackback@0.0.2 OK for: why-is-node-running@2.3.0 want: 0.0.2
+668 silly reify mark retired [
+668 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\assertion-error'
+668 silly reify ]
+669 silly reify mark retired [
+669 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\c12'
+669 silly reify ]
+670 silly reify mark retired [
+670 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\cac'
+670 silly reify ]
+671 silly reify mark retired [
+671 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\chai'
+671 silly reify ]
+672 silly reify mark retired [
+672 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\check-error'
+672 silly reify ]
+673 silly reify mark retired [
+673 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\chokidar'
+673 silly reify ]
+674 silly reify mark retired [
+674 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\citty'
+674 silly reify ]
+675 silly reify mark retired [
+675 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\confbox'
+675 silly reify ]
+676 silly reify mark retired [
+676 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\consola'
+676 silly reify ]
+677 silly reify mark retired [
+677 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\deep-eql'
+677 silly reify ]
+678 silly reify mark retired [
+678 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\deepmerge-ts'
+678 silly reify ]
+679 silly reify mark retired [
+679 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\defu'
+679 silly reify ]
+680 silly reify mark retired [
+680 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\destr'
+680 silly reify ]
+681 silly reify mark retired [
+681 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\dotenv'
+681 silly reify ]
+682 silly reify mark retired [
+682 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\effect'
+682 silly reify ]
+683 silly reify mark retired [
+683 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\empathic'
+683 silly reify ]
+684 silly reify mark retired [
+684 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\es-module-lexer'
+684 silly reify ]
+685 silly reify mark retired [
+685 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\esbuild',
+685 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\esbuild',
+685 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\esbuild.cmd',
+685 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\esbuild.ps1'
+685 silly reify ]
+686 silly reify mark retired [
+686 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\estree-walker'
+686 silly reify ]
+687 silly reify mark retired [
+687 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\exsolve'
+687 silly reify ]
+688 silly reify mark retired [
+688 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\expect-type'
+688 silly reify ]
+689 silly reify mark retired [
+689 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\fast-check'
+689 silly reify ]
+690 silly reify mark retired [
+690 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\giget',
+690 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\giget',
+690 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\giget.cmd',
+690 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\giget.ps1'
+690 silly reify ]
+691 silly reify mark retired [
+691 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\loupe'
+691 silly reify ]
+692 silly reify mark retired [
+692 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\node-fetch-native'
+692 silly reify ]
+693 silly reify mark retired [
+693 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\nypm',
+693 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\nypm',
+693 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\nypm.cmd',
+693 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\nypm.ps1'
+693 silly reify ]
+694 silly reify mark retired [
+694 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\ohash'
+694 silly reify ]
+695 silly reify mark retired [
+695 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pathe'
+695 silly reify ]
+696 silly reify mark retired [
+696 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pathval'
+696 silly reify ]
+697 silly reify mark retired [
+697 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\perfect-debounce'
+697 silly reify ]
+698 silly reify mark retired [
+698 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pkg-types'
+698 silly reify ]
+699 silly reify mark retired [
+699 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\playwright-core',
+699 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright-core',
+699 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright-core.cmd',
+699 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright-core.ps1'
+699 silly reify ]
+700 silly reify mark retired [
+700 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\prisma',
+700 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\prisma',
+700 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\prisma.cmd',
+700 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\prisma.ps1'
+700 silly reify ]
+701 silly reify mark retired [
+701 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pure-rand'
+701 silly reify ]
+702 silly reify mark retired [
+702 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\playwright',
+702 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright',
+702 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright.cmd',
+702 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright.ps1'
+702 silly reify ]
+703 silly reify mark retired [
+703 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\rc9'
+703 silly reify ]
+704 silly reify mark retired [
+704 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\rollup',
+704 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\rollup',
+704 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\rollup.cmd',
+704 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\rollup.ps1'
+704 silly reify ]
+705 silly reify mark retired [
+705 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\siginfo'
+705 silly reify ]
+706 silly reify mark retired [
+706 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\stackback'
+706 silly reify ]
+707 silly reify mark retired [
+707 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\std-env'
+707 silly reify ]
+708 silly reify mark retired [
+708 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\strip-literal'
+708 silly reify ]
+709 silly reify mark retired [
+709 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinybench'
+709 silly reify ]
+710 silly reify mark retired [
+710 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinyexec'
+710 silly reify ]
+711 silly reify mark retired [
+711 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinypool'
+711 silly reify ]
+712 silly reify mark retired [
+712 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinyrainbow'
+712 silly reify ]
+713 silly reify mark retired [
+713 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinyspy'
+713 silly reify ]
+714 silly reify mark retired [
+714 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tsx',
+714 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\tsx',
+714 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\tsx.cmd',
+714 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\tsx.ps1'
+714 silly reify ]
+715 silly reify mark retired [
+715 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\vite-node',
+715 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite-node',
+715 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite-node.cmd',
+715 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite-node.ps1'
+715 silly reify ]
+716 silly reify mark retired [
+716 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\vitest',
+716 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vitest',
+716 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vitest.cmd',
+716 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vitest.ps1'
+716 silly reify ]
+717 silly reify mark retired [
+717 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\vite',
+717 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite',
+717 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite.cmd',
+717 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite.ps1'
+717 silly reify ]
+718 silly reify mark retired [
+718 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\why-is-node-running',
+718 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\why-is-node-running',
+718 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\why-is-node-running.cmd',
+718 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\why-is-node-running.ps1'
+718 silly reify ]
+719 silly reify mark retired [
+719 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\readdirp'
+719 silly reify ]
+720 silly reify mark retired [
+720 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@esbuild\\win32-x64'
+720 silly reify ]
+721 silly reify mark retired [
+721 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@playwright\\test',
+721 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright',
+721 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright.cmd',
+721 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright.ps1'
+721 silly reify ]
+722 silly reify mark retired [
+722 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\client'
+722 silly reify ]
+723 silly reify mark retired [
+723 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\config'
+723 silly reify ]
+724 silly reify mark retired [
+724 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\debug'
+724 silly reify ]
+725 silly reify mark retired [
+725 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\engines'
+725 silly reify ]
+726 silly reify mark retired [
+726 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\engines-version'
+726 silly reify ]
+727 silly reify mark retired [
+727 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\fetch-engine'
+727 silly reify ]
+728 silly reify mark retired [
+728 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\get-platform'
+728 silly reify ]
+729 silly reify mark retired [
+729 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@rollup\\rollup-win32-x64-gnu'
+729 silly reify ]
+730 silly reify mark retired [
+730 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@rollup\\rollup-win32-x64-msvc'
+730 silly reify ]
+731 silly reify mark retired [
+731 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@standard-schema\\spec'
+731 silly reify ]
+732 silly reify mark retired [
+732 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@types\\chai'
+732 silly reify ]
+733 silly reify mark retired [
+733 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@types\\deep-eql'
+733 silly reify ]
+734 silly reify mark retired [
+734 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\expect'
+734 silly reify ]
+735 silly reify mark retired [
+735 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\mocker'
+735 silly reify ]
+736 silly reify mark retired [
+736 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\pretty-format'
+736 silly reify ]
+737 silly reify mark retired [
+737 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\runner'
+737 silly reify ]
+738 silly reify mark retired [
+738 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\snapshot'
+738 silly reify ]
+739 silly reify mark retired [
+739 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\spy'
+739 silly reify ]
+740 silly reify mark retired [
+740 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\utils'
+740 silly reify ]
+741 silly reify moves {
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\assertion-error': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.assertion-error-XEH7uV31',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\c12': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.c12-1gUgBDXn',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\cac': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.cac-bcIZQ16Y',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\chai': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.chai-SIOtq5ID',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\check-error': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.check-error-vYbjKKLP',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\chokidar': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.chokidar-eoEEsHwh',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\citty': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.citty-3yA3BDxc',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\confbox': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.confbox-pQ76LIMM',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\consola': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.consola-NhNCkfoe',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\deep-eql': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.deep-eql-wHwjDaBi',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\deepmerge-ts': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.deepmerge-ts-tV5L9UJ8',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\defu': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.defu-yv7lfMSq',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\destr': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.destr-mTmROIrt',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\dotenv': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.dotenv-DlZJh5VS',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\effect': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.effect-ayeltwsa',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\empathic': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.empathic-toje9hRd',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\es-module-lexer': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.es-module-lexer-SxWbNnij',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\esbuild': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.esbuild-w4qMjmCC',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\esbuild': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.esbuild-hS9x8xXw',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\esbuild.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.esbuild.cmd-15wzlvMm',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\esbuild.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.esbuild.ps1-KbDxI3L5',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\estree-walker': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.estree-walker-6E6khpzh',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\exsolve': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.exsolve-4zMcA4nS',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\expect-type': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.expect-type-liVQh4Yo',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\fast-check': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.fast-check-ZeqbUVnm',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\giget': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.giget-hWIDIRVE',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\giget': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.giget-5neLl4Ej',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\giget.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.giget.cmd-lLkQSv6f',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\giget.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.giget.ps1-ASdLG3Qy',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\loupe': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.loupe-9bymgKzd',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\node-fetch-native': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.node-fetch-native-YwZngPZn',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\nypm': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.nypm-rteb5gU7',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\nypm': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.nypm-9r3TYldE',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\nypm.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.nypm.cmd-w4JcODDZ',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\nypm.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.nypm.ps1-F764jqR6',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\ohash': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.ohash-eqAig7Ow',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pathe': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.pathe-eSFE7gZQ',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pathval': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.pathval-S2ScMgFs',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\perfect-debounce': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.perfect-debounce-L6aSe4un',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pkg-types': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.pkg-types-enUeTDGP',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\playwright-core': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.playwright-core-dNQLMiOL',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright-core': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.playwright-core-E8Lxug3G',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright-core.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.playwright-core.cmd-sS1Cq7Cj',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright-core.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.playwright-core.ps1-Rneg7Wae',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\prisma': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.prisma-JIdJ9QI0',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\prisma': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.prisma-OO5I8Gby',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\prisma.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.prisma.cmd-W7QNFHg4',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\prisma.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.prisma.ps1-KkONSUEy',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\pure-rand': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.pure-rand-KUYD2SWF',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\playwright': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.playwright-RC21Mb0G',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.playwright-yungTdhU',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.playwright.cmd-7GR4lp1W',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\playwright.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.playwright.ps1-OryBYFpl',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\rc9': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.rc9-WRpauHZ3',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\rollup': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.rollup-PWmU7pdL',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\rollup': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.rollup-8HemqCrz',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\rollup.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.rollup.cmd-p8odFRMg',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\rollup.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.rollup.ps1-OnowTuh9',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\siginfo': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.siginfo-0crwaYav',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\stackback': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.stackback-HUWsz1fv',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\std-env': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.std-env-1jbGrcBI',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\strip-literal': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.strip-literal-8GkVb14V',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinybench': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.tinybench-iuCqrxQU',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinyexec': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.tinyexec-WNxlmkJf',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinypool': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.tinypool-DOdM3YSt',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinyrainbow': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.tinyrainbow-k7NCToxP',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tinyspy': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.tinyspy-CKl9H3uK',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\tsx': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.tsx-iRac6B4z',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\tsx': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.tsx-bxY6tcTo',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\tsx.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.tsx.cmd-fiCZM0Zt',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\tsx.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.tsx.ps1-vcqf8C4d',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\vite-node': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.vite-node-MYyE5pY9',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite-node': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vite-node-XEvg8RUn',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite-node.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vite-node.cmd-iTwea0Zd',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite-node.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vite-node.ps1-sh1zsioS',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\vitest': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.vitest-MA9RcGeA',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vitest': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vitest-lxH66aVp',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vitest.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vitest.cmd-bbjz5SFa',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vitest.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vitest.ps1-Cc8zN5st',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\vite': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.vite-loGunURu',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vite-YjQww8gr',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vite.cmd-ZxKEnIBl',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\vite.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.vite.ps1-nZ6EYVvM',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\why-is-node-running': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.why-is-node-running-n2d2Sp8F',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\why-is-node-running': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.why-is-node-running-n7NeL1SD',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\why-is-node-running.cmd': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.why-is-node-running.cmd-QsB5zUBx',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\why-is-node-running.ps1': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.bin\\.why-is-node-running.ps1-5bQUfPzT',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\readdirp': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\.readdirp-xIu1a6gO',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@esbuild\\win32-x64': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@esbuild\\.win32-x64-Mad3bTJF',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@playwright\\test': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@playwright\\.test-0VWjhClr',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\client': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.client-X7mORd4I',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\config': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.config-zC1CjCQh',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\debug': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.debug-8OWHk25M',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\engines': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.engines-zv6Swiju',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\engines-version': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.engines-version-fE3LrqA5',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\fetch-engine': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.fetch-engine-OfrWPFJB',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\get-platform': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@prisma\\.get-platform-a9fv4L3T',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@rollup\\rollup-win32-x64-gnu': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@rollup\\.rollup-win32-x64-gnu-Jx0UC8OD',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@rollup\\rollup-win32-x64-msvc': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@rollup\\.rollup-win32-x64-msvc-oFoLEtH0',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@standard-schema\\spec': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@standard-schema\\.spec-m8gwr58x',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@types\\chai': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@types\\.chai-sQlmHco5',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@types\\deep-eql': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@types\\.deep-eql-zfxhH28R',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\expect': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.expect-WZospZdl',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\mocker': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.mocker-AOx125tT',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\pretty-format': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.pretty-format-UZ3hUjNm',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\runner': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.runner-otTYWjJl',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\snapshot': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.snapshot-D8oqIyIW',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\spy': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.spy-1XqcGLT1',
+741 silly reify   'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\utils': 'C:\\Users\\hp\\Downloads\\claude-ecommerce-scaffold-wlidaty\\kids\\node_modules\\@vitest\\.utils-4Xnqetmt'
+741 silly reify }
+742 silly audit bulk request {
+742 silly audit   '@alloc/quick-lru': [ '5.3.0' ],
+742 silly audit   '@babel/code-frame': [ '7.29.7' ],
+742 silly audit   '@babel/compat-data': [ '7.29.7' ],
+742 silly audit   '@babel/core': [ '7.29.7' ],
+742 silly audit   '@babel/generator': [ '7.29.8' ],
+742 silly audit   '@babel/helper-compilation-targets': [ '7.29.7' ],
+742 silly audit   '@babel/helper-globals': [ '7.29.7' ],
+742 silly audit   '@babel/helper-module-imports': [ '7.29.7' ],
+742 silly audit   '@babel/helper-module-transforms': [ '7.29.7' ],
+742 silly audit   '@babel/helper-string-parser': [ '7.29.11' ],
+742 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+742 silly audit   '@babel/helper-validator-option': [ '7.29.7' ],
+742 silly audit   '@babel/helpers': [ '7.29.10' ],
+742 silly audit   '@babel/parser': [ '7.29.11' ],
+742 silly audit   '@babel/template': [ '7.29.7' ],
+742 silly audit   '@babel/traverse': [ '7.29.10' ],
+742 silly audit   '@babel/types': [ '7.29.11' ],
+742 silly audit   '@emnapi/core': [ '1.10.0' ],
+742 silly audit   '@emnapi/runtime': [ '1.11.3', '1.10.0' ],
+742 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+742 silly audit   '@eslint-community/eslint-utils': [ '4.10.1', '4.9.1' ],
+742 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+742 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+742 silly audit   '@eslint/config-array': [ '0.21.2' ],
+742 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+742 silly audit   '@eslint/core': [ '0.17.0' ],
+742 silly audit   '@eslint/eslintrc': [ '3.3.7' ],
+742 silly audit   '@eslint/js': [ '9.39.5' ],
+742 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+742 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+742 silly audit   '@humanfs/core': [ '0.19.2' ],
+742 silly audit   '@humanfs/node': [ '0.16.8' ],
+742 silly audit   '@humanfs/types': [ '0.15.0' ],
+742 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+742 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+742 silly audit   '@img/colour': [ '1.1.0' ],
+742 silly audit   '@img/sharp-darwin-arm64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-darwin-x64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-freebsd-wasm32': [ '0.35.5' ],
+742 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linux-arm': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linux-x64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.3.4' ],
+742 silly audit   '@img/sharp-linux-arm': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linux-arm64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linux-ppc64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linux-riscv64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linux-s390x': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linux-x64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-linuxmusl-x64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-wasm32': [ '0.35.5' ],
+742 silly audit   '@img/sharp-webcontainers-wasm32': [ '0.35.5' ],
+742 silly audit   '@img/sharp-win32-arm64': [ '0.35.5' ],
+742 silly audit   '@img/sharp-win32-ia32': [ '0.35.5' ],
+742 silly audit   '@img/sharp-win32-x64': [ '0.35.5' ],
+742 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+742 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+742 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+742 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+742 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+742 silly audit   '@napi-rs/wasm-runtime': [ '1.2.6' ],
+742 silly audit   '@next/env': [ '16.4.3' ],
+742 silly audit   '@next/eslint-plugin-next': [ '16.4.3' ],
+742 silly audit   '@next/swc-darwin-arm64': [ '16.4.3' ],
+742 silly audit   '@next/swc-darwin-x64': [ '16.4.3' ],
+742 silly audit   '@next/swc-linux-arm64-gnu': [ '16.4.3' ],
+742 silly audit   '@next/swc-linux-arm64-musl': [ '16.4.3' ],
+742 silly audit   '@next/swc-linux-x64-gnu': [ '16.4.3' ],
+742 silly audit   '@next/swc-linux-x64-musl': [ '16.4.3' ],
+742 silly audit   '@next/swc-win32-arm64-msvc': [ '16.4.3' ],
+742 silly audit   '@next/swc-win32-x64-msvc': [ '16.4.3' ],
+742 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+742 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+742 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+742 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+742 silly audit   '@prisma/client': [ '6.19.0' ],
+742 silly audit   '@rtsao/scc': [ '1.1.0' ],
+742 silly audit   '@swc/helpers': [ '0.5.23' ],
+742 silly audit   '@tailwindcss/node': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.3' ],
+742 silly audit   '@tailwindcss/turbopack': [ '4.3.3' ],
+742 silly audit   '@tybys/wasm-util': [ '0.10.4' ],
+742 silly audit   '@types/estree': [ '1.0.9' ],
+742 silly audit   '@types/json-schema': [ '7.0.15' ],
+742 silly audit   '@types/json5': [ '0.0.29' ],
+742 silly audit   '@types/node': [ '20.19.43' ],
+742 silly audit   '@types/react': [ '19.3.0' ],
+742 silly audit   '@types/react-dom': [ '19.3.0' ],
+742 silly audit   '@typescript-eslint/eslint-plugin': [ '8.72.1' ],
+742 silly audit   ignore: [ '7.0.14', '5.3.2' ],
+742 silly audit   '@typescript-eslint/parser': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/project-service': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/scope-manager': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/type-utils': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/types': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/typescript-estree': [ '8.72.1' ],
+742 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+742 silly audit   'brace-expansion': [ '5.0.12', '1.1.21' ],
+742 silly audit   minimatch: [ '10.2.6', '3.1.5' ],
+742 silly audit   semver: [ '7.8.5', '6.3.1' ],
+742 silly audit   '@typescript-eslint/utils': [ '8.72.1' ],
+742 silly audit   '@typescript-eslint/visitor-keys': [ '8.72.1' ],
+742 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-loong64-gnu': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-loong64-musl': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-openharmony-arm64': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.12.2' ],
+742 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.12.2' ],
+742 silly audit   acorn: [ '8.19.0' ],
+742 silly audit   'acorn-jsx': [ '5.3.2' ],
+742 silly audit   ajv: [ '6.15.0' ],
+742 silly audit   'ansi-styles': [ '4.3.0' ],
+742 silly audit   argparse: [ '2.0.1' ],
+742 silly audit   'aria-query': [ '5.3.2' ],
+742 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+742 silly audit   'array-includes': [ '3.2.0' ],
+742 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+742 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+742 silly audit   'array.prototype.flat': [ '1.3.3' ],
+742 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+742 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+742 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+742 silly audit   'ast-types-flow': [ '0.0.8' ],
+742 silly audit   'async-function': [ '1.0.0' ],
+742 silly audit   'available-typed-arrays': [ '1.0.7' ],
+742 silly audit   'axe-core': [ '4.14.0' ],
+742 silly audit   'axobject-query': [ '4.1.0' ],
+742 silly audit   'baseline-browser-mapping': [ '2.11.33' ],
+742 silly audit   bcryptjs: [ '3.0.3' ],
+742 silly audit   braces: [ '3.0.3' ],
+742 silly audit   browserslist: [ '4.29.5' ],
+742 silly audit   'call-bind': [ '1.0.9' ],
+742 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+742 silly audit   'call-bound': [ '1.0.4' ],
+742 silly audit   callsites: [ '3.1.0' ],
+742 silly audit   'caniuse-lite': [ '1.0.30001819' ],
+742 silly audit   chalk: [ '4.1.2' ],
+742 silly audit   'client-only': [ '0.0.1' ],
+742 silly audit   'color-convert': [ '2.0.1' ],
+742 silly audit   'color-name': [ '1.1.4' ],
+742 silly audit   'concat-map': [ '0.0.1' ],
+742 silly audit   'convert-source-map': [ '2.0.0' ],
+742 silly audit   'cross-spawn': [ '7.0.6' ],
+742 silly audit   csstype: [ '3.2.3' ],
+742 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+742 silly audit   'data-view-buffer': [ '1.0.2' ],
+742 silly audit   'data-view-byte-length': [ '1.0.2' ],
+742 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+742 silly audit   debug: [ '4.4.3', '3.2.7' ],
+742 silly audit   'deep-is': [ '0.1.4' ],
+742 silly audit   'define-data-property': [ '1.1.4' ],
+742 silly audit   'define-properties': [ '1.2.1' ],
+742 silly audit   'detect-libc': [ '2.1.2' ],
+742 silly audit   doctrine: [ '2.1.0' ],
+742 silly audit   'dunder-proto': [ '1.0.1' ],
+742 silly audit   'electron-to-chromium': [ '1.5.465' ],
+742 silly audit   'emoji-regex': [ '9.2.2' ],
+742 silly audit   'enhanced-resolve': [ '5.26.0' ],
+742 silly audit   'es-abstract': [ '1.24.2' ],
+742 silly audit   'es-abstract-get': [ '1.0.0' ],
+742 silly audit   'es-define-property': [ '1.0.1' ],
+742 silly audit   'es-errors': [ '1.3.0' ],
+742 silly audit   'es-iterator-helpers': [ '1.4.0' ],
+742 silly audit   'es-object-atoms': [ '1.1.2' ],
+742 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+742 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+742 silly audit   'es-to-primitive': [ '1.3.4' ],
+742 silly audit   escalade: [ '3.2.0' ],
+742 silly audit   'escape-string-regexp': [ '4.0.0' ],
+742 silly audit   eslint: [ '9.39.5' ],
+742 silly audit   'eslint-config-next': [ '16.4.3' ],
+742 silly audit   globals: [ '16.4.0', '14.0.0' ],
+742 silly audit   'eslint-import-resolver-node': [ '0.3.10' ],
+742 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+742 silly audit   'eslint-module-utils': [ '2.14.0' ],
+742 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+742 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+742 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+742 silly audit   'eslint-plugin-react-hooks': [ '7.1.1' ],
+742 silly audit   'eslint-scope': [ '8.4.0' ],
+742 silly audit   espree: [ '10.4.0' ],
+742 silly audit   esquery: [ '1.7.0' ],
+742 silly audit   esrecurse: [ '4.3.0' ],
+742 silly audit   estraverse: [ '5.3.0' ],
+742 silly audit   esutils: [ '2.0.3' ],
+742 silly audit   'fast-deep-equal': [ '3.1.3' ],
+742 silly audit   'fast-glob': [ '3.3.1' ],
+742 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+742 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+742 silly audit   'fast-levenshtein': [ '2.0.6' ],
+742 silly audit   fastq: [ '1.20.3' ],
+742 silly audit   'file-entry-cache': [ '8.0.0' ],
+742 silly audit   'fill-range': [ '7.1.1' ],
+742 silly audit   'find-up': [ '5.0.0' ],
+742 silly audit   'flat-cache': [ '4.0.1' ],
+742 silly audit   flatted: [ '3.4.4' ],
+742 silly audit   'for-each': [ '0.3.5' ],
+742 silly audit   'function-bind': [ '1.1.2' ],
+742 silly audit   'function.prototype.name': [ '1.2.0' ],
+742 silly audit   'functions-have-names': [ '1.2.3' ],
+742 silly audit   'generator-function': [ '2.0.1' ],
+742 silly audit   gensync: [ '1.0.0-beta.2' ],
+742 silly audit   'get-intrinsic': [ '1.3.0' ],
+742 silly audit   'get-proto': [ '1.0.1' ],
+742 silly audit   'get-symbol-description': [ '1.1.0' ],
+742 silly audit   'get-tsconfig': [ '4.14.3' ],
+742 silly audit   globalthis: [ '1.0.4' ],
+742 silly audit   gopd: [ '1.2.0' ],
+742 silly audit   'graceful-fs': [ '4.2.11' ],
+742 silly audit   'has-bigints': [ '1.1.0' ],
+742 silly audit   'has-flag': [ '4.0.0' ],
+742 silly audit   'has-property-descriptors': [ '1.0.2' ],
+742 silly audit   'has-proto': [ '1.2.0' ],
+742 silly audit   'has-symbols': [ '1.1.0' ],
+742 silly audit   'has-tostringtag': [ '1.0.2' ],
+742 silly audit   hasown: [ '2.0.4' ],
+742 silly audit   'hermes-estree': [ '0.25.1' ],
+742 silly audit   'hermes-parser': [ '0.25.1' ],
+742 silly audit   'import-fresh': [ '3.3.1' ],
+742 silly audit   imurmurhash: [ '0.1.4' ],
+742 silly audit   'internal-slot': [ '1.1.0' ],
+742 silly audit   'is-array-buffer': [ '3.0.5' ],
+742 silly audit   'is-async-function': [ '2.1.1' ],
+742 silly audit   'is-bigint': [ '1.1.0' ],
+742 silly audit   'is-boolean-object': [ '1.2.2' ],
+742 silly audit   'is-bun-module': [ '2.0.0' ],
+742 silly audit   'is-callable': [ '1.2.7' ],
+742 silly audit   'is-core-module': [ '2.17.0' ],
+742 silly audit   'is-data-view': [ '1.0.2' ],
+742 silly audit   'is-date-object': [ '1.1.0' ],
+742 silly audit   'is-document.all': [ '1.0.0' ],
+742 silly audit   'is-extglob': [ '2.1.1' ],
+742 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+742 silly audit   'is-generator-function': [ '1.1.2' ],
+742 silly audit   'is-glob': [ '4.0.3' ],
+742 silly audit   'is-map': [ '2.0.3' ],
+742 silly audit   'is-negative-zero': [ '2.0.3' ],
+742 silly audit   'is-number': [ '7.0.0' ],
+742 silly audit   'is-number-object': [ '1.1.1' ],
+742 silly audit   'is-regex': [ '1.2.1' ],
+742 silly audit   'is-set': [ '2.0.3' ],
+742 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+742 silly audit   'is-string': [ '1.1.1' ],
+742 silly audit   'is-symbol': [ '1.1.1' ],
+742 silly audit   'is-typed-array': [ '1.1.15' ],
+742 silly audit   'is-weakmap': [ '2.0.2' ],
+742 silly audit   'is-weakref': [ '1.1.1' ],
+742 silly audit   'is-weakset': [ '2.0.4' ],
+742 silly audit   isarray: [ '2.0.5' ],
+742 silly audit   isexe: [ '2.0.0' ],
+742 silly audit   'iterator.prototype': [ '1.1.5' ],
+742 silly audit   jiti: [ '2.7.0' ],
+742 silly audit   'js-tokens': [ '4.0.0', '9.0.1' ],
+742 silly audit   'js-yaml': [ '4.3.2' ],
+742 silly audit   jsesc: [ '3.1.0' ],
+742 silly audit   'json-buffer': [ '3.0.1' ],
+742 silly audit   'json-schema-traverse': [ '0.4.1' ],
+742 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+742 silly audit   json5: [ '2.2.3', '1.0.2' ],
+742 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+742 silly audit   keyv: [ '4.5.4' ],
+742 silly audit   'language-subtag-registry': [ '0.3.23' ],
+742 silly audit   'language-tags': [ '1.0.9' ],
+742 silly audit   levn: [ '0.4.1' ],
+742 silly audit   lightningcss: [ '1.32.0' ],
+742 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+742 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+742 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+742 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+742 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+742 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+742 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+742 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+742 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+742 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+742 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+742 silly audit   'locate-path': [ '6.0.0' ],
+742 silly audit   'lodash.merge': [ '4.6.2' ],
+742 silly audit   'loose-envify': [ '1.4.0' ],
+742 silly audit   'lru-cache': [ '5.1.1' ],
+742 silly audit   'lucide-react': [ '1.63.0' ],
+742 silly audit   'magic-string': [ '0.30.21' ],
+742 silly audit   'math-intrinsics': [ '1.1.0' ],
+742 silly audit   merge2: [ '1.4.1' ],
+742 silly audit   micromatch: [ '4.0.8' ],
+742 silly audit   minimist: [ '1.2.8' ],
+742 silly audit   ms: [ '2.1.3' ],
+742 silly audit   nanoid: [ '3.3.20' ],
+742 silly audit   'napi-postinstall': [ '0.3.7' ],
+742 silly audit   'natural-compare': [ '1.4.0' ],
+742 silly audit   next: [ '16.4.3' ],
+742 silly audit   'node-exports-info': [ '1.6.2' ],
+742 silly audit   'node-releases': [ '2.0.60' ],
+742 silly audit   'object-assign': [ '4.1.1' ],
+742 silly audit   'object-inspect': [ '1.13.4' ],
+742 silly audit   'object-keys': [ '1.1.1' ],
+742 silly audit   'object.assign': [ '4.1.7' ],
+742 silly audit   'object.entries': [ '1.1.9' ],
+742 silly audit   'object.fromentries': [ '2.0.8' ],
+742 silly audit   'object.groupby': [ '1.0.3' ],
+742 silly audit   'object.values': [ '1.2.1' ],
+742 silly audit   optionator: [ '0.9.4' ],
+742 silly audit   'own-keys': [ '1.0.2' ],
+742 silly audit   'p-limit': [ '3.1.0' ],
+742 silly audit   'p-locate': [ '5.0.0' ],
+742 silly audit   'parent-module': [ '1.0.1' ],
+742 silly audit   'path-exists': [ '4.0.0' ],
+742 silly audit   'path-key': [ '3.1.1' ],
+742 silly audit   'path-parse': [ '1.0.7' ],
+742 silly audit   picocolors: [ '1.1.1' ],
+742 silly audit   picomatch: [ '2.3.2', '4.0.7' ],
+742 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+742 silly audit   postcss: [ '8.5.23' ],
+742 silly audit   'prelude-ls': [ '1.2.1' ],
+742 silly audit   'prop-types': [ '15.8.1' ],
+742 silly audit   punycode: [ '2.3.1' ],
+742 silly audit   'queue-microtask': [ '1.2.3' ],
+742 silly audit   react: [ '19.3.0' ],
+742 silly audit   'react-dom': [ '19.3.0' ],
+742 silly audit   'react-is': [ '16.13.1' ],
+742 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+742 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+742 silly audit   resolve: [ '2.0.0-next.7' ],
+742 silly audit   'resolve-from': [ '4.0.0' ],
+742 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+742 silly audit   reusify: [ '1.1.0' ],
+742 silly audit   'run-parallel': [ '1.2.0' ],
+742 silly audit   'safe-array-concat': [ '1.1.4' ],
+742 silly audit   'safe-push-apply': [ '1.0.0' ],
+742 silly audit   'safe-regex-test': [ '1.1.0' ],
+742 silly audit   scheduler: [ '0.28.0' ],
+742 silly audit   'set-function-length': [ '1.2.2' ],
+742 silly audit   'set-function-name': [ '2.0.2' ],
+742 silly audit   'set-proto': [ '1.0.0' ],
+742 silly audit   sharp: [ '0.35.5' ],
+742 silly audit   'shebang-command': [ '2.0.0' ],
+742 silly audit   'shebang-regex': [ '3.0.0' ],
+742 silly audit   'side-channel': [ '1.1.1' ],
+742 silly audit   'side-channel-list': [ '1.0.1' ],
+742 silly audit   'side-channel-map': [ '1.0.1' ],
+742 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+742 silly audit   'source-map-js': [ '1.2.2' ],
+742 silly audit   'stable-hash': [ '0.0.5' ],
+742 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+742 silly audit   'string.prototype.includes': [ '2.0.1' ],
+742 silly audit   'string.prototype.matchall': [ '4.1.0' ],
+742 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+742 silly audit   'string.prototype.trim': [ '1.2.11' ],
+742 silly audit   'string.prototype.trimend': [ '1.0.10' ],
+742 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+742 silly audit   'strip-bom': [ '3.0.0' ],
+742 silly audit   'strip-json-comments': [ '3.1.1' ],
+742 silly audit   'styled-jsx': [ '5.1.6' ],
+742 silly audit   'supports-color': [ '7.2.0' ],
+742 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+742 silly audit   tailwindcss: [ '4.3.3' ],
+742 silly audit   tapable: [ '2.3.3' ],
+742 silly audit   tinyglobby: [ '0.2.17' ],
+742 silly audit   fdir: [ '6.5.0' ],
+742 silly audit   'to-regex-range': [ '5.0.1' ],
+742 silly audit   'ts-api-utils': [ '2.5.0' ],
+742 silly audit   'tsconfig-paths': [ '3.15.0' ],
+742 silly audit   tslib: [ '2.8.1' ],
+742 silly audit   'type-check': [ '0.4.0' ],
+742 silly audit   'typed-array-buffer': [ '1.0.3' ],
+742 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+742 silly audit   'typed-array-byte-offset': [ '1.0.5' ],
+742 silly audit   'typed-array-length': [ '1.0.8' ],
+742 silly audit   typescript: [ '5.9.3' ],
+742 silly audit   'typescript-eslint': [ '8.72.1' ],
+742 silly audit   'unbox-primitive': [ '1.1.0' ],
+742 silly audit   'undici-types': [ '6.21.0' ],
+742 silly audit   'unrs-resolver': [ '1.12.2' ],
+742 silly audit   'update-browserslist-db': [ '1.3.4' ],
+742 silly audit   'uri-js': [ '4.4.1' ],
+742 silly audit   which: [ '2.0.2' ],
+742 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+742 silly audit   'which-builtin-type': [ '1.2.1' ],
+742 silly audit   'which-collection': [ '1.0.2' ],
+742 silly audit   'which-typed-array': [ '1.1.24' ],
+742 silly audit   'word-wrap': [ '1.2.5' ],
+742 silly audit   yallist: [ '3.1.1' ],
+742 silly audit   'yocto-queue': [ '0.1.0' ],
+742 silly audit   zod: [ '4.6.7' ],
+742 silly audit   'zod-validation-error': [ '4.0.2' ],
+742 silly audit   '@playwright/test': [ '1.64.1' ],
+742 silly audit   prisma: [ '6.19.0' ],
+742 silly audit   tsx: [ '4.23.15' ],
+742 silly audit   vitest: [ '3.2.7' ],
+742 silly audit   playwright: [ '1.64.1' ],
+742 silly audit   'playwright-core': [ '1.64.1' ],
+742 silly audit   '@prisma/config': [ '6.19.0' ],
+742 silly audit   '@prisma/engines': [ '6.19.0' ],
+742 silly audit   c12: [ '3.1.0' ],
+742 silly audit   'deepmerge-ts': [ '7.1.5' ],
+742 silly audit   effect: [ '3.18.4' ],
+742 silly audit   empathic: [ '2.0.0' ],
+742 silly audit   '@prisma/debug': [ '6.19.0' ],
+742 silly audit   '@prisma/engines-version': [ '6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773' ],
+742 silly audit   '@prisma/fetch-engine': [ '6.19.0' ],
+742 silly audit   '@prisma/get-platform': [ '6.19.0' ],
+742 silly audit   chokidar: [ '4.0.3' ],
+742 silly audit   confbox: [ '0.2.4', '0.3.1' ],
+742 silly audit   defu: [ '6.1.7' ],
+742 silly audit   dotenv: [ '16.6.1' ],
+742 silly audit   exsolve: [ '1.2.0' ],
+742 silly audit   giget: [ '2.0.0' ],
+742 silly audit   ohash: [ '2.0.12' ],
+742 silly audit   pathe: [ '2.0.3' ],
+742 silly audit   'perfect-debounce': [ '1.0.0' ],
+742 silly audit   'pkg-types': [ '2.4.0' ],
+742 silly audit   rc9: [ '2.1.2' ],
+742 silly audit   readdirp: [ '4.1.2' ],
+742 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+742 silly audit   'fast-check': [ '3.23.2' ],
+742 silly audit   'pure-rand': [ '6.1.0' ],
+742 silly audit   citty: [ '0.1.6', '0.2.2' ],
+742 silly audit   consola: [ '3.4.2' ],
+742 silly audit   'node-fetch-native': [ '1.6.7' ],
+742 silly audit   nypm: [ '0.6.12' ],
+742 silly audit   tinyexec: [ '1.3.1', '0.3.2' ],
+742 silly audit   destr: [ '2.0.5' ],
+742 silly audit   esbuild: [ '0.28.2' ],
+742 silly audit   fsevents: [ '2.3.3' ],
+742 silly audit   '@esbuild/aix-ppc64': [ '0.28.2' ],
+742 silly audit   '@esbuild/android-arm': [ '0.28.2' ],
+742 silly audit   '@esbuild/android-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/android-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/darwin-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/darwin-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/freebsd-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/freebsd-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-arm': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-ia32': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-loong64': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-mips64el': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-ppc64': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-riscv64': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-s390x': [ '0.28.2' ],
+742 silly audit   '@esbuild/linux-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/netbsd-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/netbsd-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/openbsd-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/openbsd-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/openharmony-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/sunos-x64': [ '0.28.2' ],
+742 silly audit   '@esbuild/win32-arm64': [ '0.28.2' ],
+742 silly audit   '@esbuild/win32-ia32': [ '0.28.2' ],
+742 silly audit   '@esbuild/win32-x64': [ '0.28.2' ],
+742 silly audit   '@types/chai': [ '5.2.3' ],
+742 silly audit   '@vitest/expect': [ '3.2.7' ],
+742 silly audit   '@vitest/mocker': [ '3.2.7' ],
+742 silly audit   '@vitest/pretty-format': [ '3.2.7' ],
+742 silly audit   '@vitest/runner': [ '3.2.7' ],
+742 silly audit   '@vitest/snapshot': [ '3.2.7' ],
+742 silly audit   '@vitest/spy': [ '3.2.7' ],
+742 silly audit   '@vitest/utils': [ '3.2.7' ],
+742 silly audit   chai: [ '5.3.3' ],
+742 silly audit   'expect-type': [ '1.4.0' ],
+742 silly audit   'std-env': [ '3.10.0' ],
+742 silly audit   tinybench: [ '2.9.0' ],
+742 silly audit   tinypool: [ '1.1.1' ],
+742 silly audit   tinyrainbow: [ '2.0.0' ],
+742 silly audit   vite: [ '7.3.7' ],
+742 silly audit   'vite-node': [ '3.2.4' ],
+742 silly audit   'why-is-node-running': [ '2.3.0' ],
+742 silly audit   '@types/deep-eql': [ '4.0.2' ],
+742 silly audit   'assertion-error': [ '2.0.1' ],
+742 silly audit   'estree-walker': [ '3.0.3' ],
+742 silly audit   'strip-literal': [ '3.1.0' ],
+742 silly audit   tinyspy: [ '4.0.6' ],
+742 silly audit   loupe: [ '3.2.1' ],
+742 silly audit   'check-error': [ '2.1.3' ],
+742 silly audit   'deep-eql': [ '5.0.2' ],
+742 silly audit   pathval: [ '2.0.1' ],
+742 silly audit   rollup: [ '4.66.0' ],
+742 silly audit   '@napi-rs/lzma-linux-x64-gnu': [ '1.5.1' ],
+742 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-android-arm64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-darwin-arm64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-darwin-x64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-freebsd-x64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-openbsd-x64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.66.0' ],
+742 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.66.0' ],
+742 silly audit   cac: [ '6.7.14' ],
+742 silly audit   'es-module-lexer': [ '1.7.0' ],
+742 silly audit   siginfo: [ '2.0.0' ],
+742 silly audit   stackback: [ '0.0.2' ]
+742 silly audit }
+743 http cache @vitest/utils@https://registry.npmjs.org/@vitest/utils/-/utils-3.2.7.tgz 0ms (cache hit)
+744 http cache @vitest/spy@https://registry.npmjs.org/@vitest/spy/-/spy-3.2.7.tgz 0ms (cache hit)
+745 http cache @vitest/snapshot@https://registry.npmjs.org/@vitest/snapshot/-/snapshot-3.2.7.tgz 1ms (cache hit)
+746 http cache @vitest/runner@https://registry.npmjs.org/@vitest/runner/-/runner-3.2.7.tgz 0ms (cache hit)
+747 http cache @vitest/pretty-format@https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-3.2.7.tgz 0ms (cache hit)
+748 http cache @vitest/mocker@https://registry.npmjs.org/@vitest/mocker/-/mocker-3.2.7.tgz 0ms (cache hit)
+749 http cache @vitest/expect@https://registry.npmjs.org/@vitest/expect/-/expect-3.2.7.tgz 0ms (cache hit)
+750 http cache @types/deep-eql@https://registry.npmjs.org/@types/deep-eql/-/deep-eql-4.0.2.tgz 0ms (cache hit)
+751 http cache @types/chai@https://registry.npmjs.org/@types/chai/-/chai-5.2.3.tgz 0ms (cache hit)
+752 http cache @rollup/rollup-win32-x64-msvc@https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.66.0.tgz 0ms (cache hit)
+753 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+754 http cache @rollup/rollup-win32-x64-gnu@https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.66.0.tgz 0ms (cache hit)
+755 http cache @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-6.19.0.tgz 0ms (cache hit)
+756 http cache @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-6.19.0.tgz 0ms (cache hit)
+757 http cache @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773.tgz 0ms (cache hit)
+758 http cache @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-6.19.0.tgz 0ms (cache hit)
+759 http cache @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-6.19.0.tgz 0ms (cache hit)
+760 http cache @prisma/config@https://registry.npmjs.org/@prisma/config/-/config-6.19.0.tgz 0ms (cache hit)
+761 http cache @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-6.19.0.tgz 0ms (cache hit)
+762 http cache @playwright/test@https://registry.npmjs.org/@playwright/test/-/test-1.64.1.tgz 0ms (cache hit)
+763 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz 0ms (cache hit)
+764 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz 0ms (cache hit)
+765 http cache why-is-node-running@https://registry.npmjs.org/why-is-node-running/-/why-is-node-running-2.3.0.tgz 0ms (cache hit)
+766 http cache vite@https://registry.npmjs.org/vite/-/vite-7.3.7.tgz 1ms (cache hit)
+767 http cache vitest@https://registry.npmjs.org/vitest/-/vitest-3.2.7.tgz 0ms (cache hit)
+768 http cache vite-node@https://registry.npmjs.org/vite-node/-/vite-node-3.2.4.tgz 0ms (cache hit)
+769 http cache tsx@https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz 0ms (cache hit)
+770 http cache tinyspy@https://registry.npmjs.org/tinyspy/-/tinyspy-4.0.6.tgz 0ms (cache hit)
+771 http cache tinyrainbow@https://registry.npmjs.org/tinyrainbow/-/tinyrainbow-2.0.0.tgz 0ms (cache hit)
+772 http cache tinypool@https://registry.npmjs.org/tinypool/-/tinypool-1.1.1.tgz 0ms (cache hit)
+773 http cache tinyexec@https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz 0ms (cache hit)
+774 http cache tinybench@https://registry.npmjs.org/tinybench/-/tinybench-2.9.0.tgz 0ms (cache hit)
+775 http cache std-env@https://registry.npmjs.org/std-env/-/std-env-3.10.0.tgz 0ms (cache hit)
+776 http cache strip-literal@https://registry.npmjs.org/strip-literal/-/strip-literal-3.1.0.tgz 0ms (cache hit)
+777 http cache stackback@https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz 0ms (cache hit)
+778 http cache siginfo@https://registry.npmjs.org/siginfo/-/siginfo-2.0.0.tgz 1ms (cache hit)
+779 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.66.0.tgz 0ms (cache hit)
+780 http cache rc9@https://registry.npmjs.org/rc9/-/rc9-2.1.2.tgz 0ms (cache hit)
+781 http cache playwright@https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz 0ms (cache hit)
+782 http cache pure-rand@https://registry.npmjs.org/pure-rand/-/pure-rand-6.1.0.tgz 0ms (cache hit)
+783 http cache prisma@https://registry.npmjs.org/prisma/-/prisma-6.19.0.tgz 0ms (cache hit)
+784 http cache playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz 0ms (cache hit)
+785 http cache pkg-types@https://registry.npmjs.org/pkg-types/-/pkg-types-2.4.0.tgz 0ms (cache hit)
+786 http cache perfect-debounce@https://registry.npmjs.org/perfect-debounce/-/perfect-debounce-1.0.0.tgz 0ms (cache hit)
+787 http cache pathval@https://registry.npmjs.org/pathval/-/pathval-2.0.1.tgz 0ms (cache hit)
+788 http cache pathe@https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz 0ms (cache hit)
+789 http cache node-fetch-native@https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.7.tgz 0ms (cache hit)
+790 http cache nypm@https://registry.npmjs.org/nypm/-/nypm-0.6.12.tgz 0ms (cache hit)
+791 http cache ohash@https://registry.npmjs.org/ohash/-/ohash-2.0.12.tgz 0ms (cache hit)
+792 http cache loupe@https://registry.npmjs.org/loupe/-/loupe-3.2.1.tgz 0ms (cache hit)
+793 http cache giget@https://registry.npmjs.org/giget/-/giget-2.0.0.tgz 0ms (cache hit)
+794 http cache fast-check@https://registry.npmjs.org/fast-check/-/fast-check-3.23.2.tgz 0ms (cache hit)
+795 http cache expect-type@https://registry.npmjs.org/expect-type/-/expect-type-1.4.0.tgz 0ms (cache hit)
+796 http cache exsolve@https://registry.npmjs.org/exsolve/-/exsolve-1.2.0.tgz 0ms (cache hit)
+797 http cache estree-walker@https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz 0ms (cache hit)
+798 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz 0ms (cache hit)
+799 http cache es-module-lexer@https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-1.7.0.tgz 0ms (cache hit)
+800 http cache empathic@https://registry.npmjs.org/empathic/-/empathic-2.0.0.tgz 0ms (cache hit)
+801 http cache effect@https://registry.npmjs.org/effect/-/effect-3.18.4.tgz 0ms (cache hit)
+802 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 0ms (cache hit)
+803 http cache destr@https://registry.npmjs.org/destr/-/destr-2.0.5.tgz 0ms (cache hit)
+804 http cache defu@https://registry.npmjs.org/defu/-/defu-6.1.7.tgz 0ms (cache hit)
+805 http cache deepmerge-ts@https://registry.npmjs.org/deepmerge-ts/-/deepmerge-ts-7.1.5.tgz 0ms (cache hit)
+806 http cache deep-eql@https://registry.npmjs.org/deep-eql/-/deep-eql-5.0.2.tgz 0ms (cache hit)
+807 http cache consola@https://registry.npmjs.org/consola/-/consola-3.4.2.tgz 0ms (cache hit)
+808 http cache confbox@https://registry.npmjs.org/confbox/-/confbox-0.2.4.tgz 0ms (cache hit)
+809 http cache citty@https://registry.npmjs.org/citty/-/citty-0.1.6.tgz 0ms (cache hit)
+810 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz 0ms (cache hit)
+811 http cache check-error@https://registry.npmjs.org/check-error/-/check-error-2.1.3.tgz 0ms (cache hit)
+812 http cache chai@https://registry.npmjs.org/chai/-/chai-5.3.3.tgz 0ms (cache hit)
+813 http cache cac@https://registry.npmjs.org/cac/-/cac-6.7.14.tgz 0ms (cache hit)
+814 http cache assertion-error@https://registry.npmjs.org/assertion-error/-/assertion-error-2.0.1.tgz 0ms (cache hit)
+815 http cache c12@https://registry.npmjs.org/c12/-/c12-3.1.0.tgz 0ms (cache hit)
+816 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+817 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+818 http cache tinyexec@https://registry.npmjs.org/tinyexec/-/tinyexec-0.3.2.tgz 0ms (cache hit)
+819 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+820 http cache js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-9.0.1.tgz 0ms (cache hit)
+821 http cache confbox@https://registry.npmjs.org/confbox/-/confbox-0.3.1.tgz 1ms (cache hit)
+822 http cache citty@https://registry.npmjs.org/citty/-/citty-0.2.2.tgz 0ms (cache hit)
+823 silly tarball no local data for node-fetch-native@https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.7.tgz. Extracting by manifest.
+824 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 3043ms
+825 silly audit report {
+825 silly audit report   vitest: [
+825 silly audit report     {
+825 silly audit report       id: 1193683,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-82fw-gwwq-j7x9',
+825 silly audit report       title: 'Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock',
+825 silly audit report       severity: 'moderate',
+825 silly audit report       vulnerable_versions: '>=2.1.0 <4.1.11',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     }
+825 silly audit report   ],
+825 silly audit report   'deepmerge-ts': [
+825 silly audit report     {
+825 silly audit report       id: 1145093,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-ggr8-5vv4-36mx',
+825 silly audit report       title: 'DeepmergeTS has stack exhaustion when merging recursive object graphs',
+825 silly audit report       severity: 'high',
+825 silly audit report       vulnerable_versions: '<8.0.0',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     }
+825 silly audit report   ],
+825 silly audit report   effect: [
+825 silly audit report     {
+825 silly audit report       id: 1115356,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-38f7-945m-qr2g',
+825 silly audit report       title: 'Effect `AsyncLocalStorage` context lost/contaminated inside Effect fibers under concurrent load with RPC',
+825 silly audit report       severity: 'high',
+825 silly audit report       vulnerable_versions: '<3.20.0',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     }
+825 silly audit report   ],
+825 silly audit report   '@vitest/mocker': [
+825 silly audit report     {
+825 silly audit report       id: 1193684,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-82fw-gwwq-j7x9',
+825 silly audit report       title: 'Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock',
+825 silly audit report       severity: 'moderate',
+825 silly audit report       vulnerable_versions: '>=2.1.0 <4.1.11',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     },
+825 silly audit report     {
+825 silly audit report       id: 1242767,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-qxg6-89mg-rqv8',
+825 silly audit report       title: 'Vitest: Code injection via unauthenticated manual mock registration',
+825 silly audit report       severity: 'moderate',
+825 silly audit report       vulnerable_versions: '>=2.1.0-beta.7 <4.1.12',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     }
+825 silly audit report   ],
+825 silly audit report   tinypool: [
+825 silly audit report     {
+825 silly audit report       id: 1241260,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-5gmw-xhrv-c9v3',
+825 silly audit report       title: 'Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution',
+825 silly audit report       severity: 'critical',
+825 silly audit report       vulnerable_versions: '<=2.1.0',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     },
+825 silly audit report     {
+825 silly audit report       id: 1241261,
+825 silly audit report       url: 'https://github.com/advisories/GHSA-85c8-ppgw-ccpr',
+825 silly audit report       title: 'Tinypool: Prototype Pollution Gadget to RCE in run() options',
+825 silly audit report       severity: 'critical',
+825 silly audit report       vulnerable_versions: '<2.1.2',
+825 silly audit report       cwe: [Array],
+825 silly audit report       cvss: [Object]
+825 silly audit report     }
+825 silly audit report   ]
+825 silly audit report }
+826 silly packumentCache corgi:https://registry.npmjs.org/vitest cache-miss
+827 silly packumentCache corgi:https://registry.npmjs.org/deepmerge-ts cache-miss
+828 silly packumentCache corgi:https://registry.npmjs.org/effect cache-miss
+829 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+830 silly packumentCache corgi:https://registry.npmjs.org/tinypool cache-miss
+831 http fetch GET 200 https://registry.npmjs.org/vitest 1235ms (cache revalidated)
+832 silly packumentCache corgi:https://registry.npmjs.org/vitest set size:1301005 disposed:false
+833 http fetch GET 200 https://registry.npmjs.org/deepmerge-ts 1284ms (cache revalidated)
+834 silly packumentCache corgi:https://registry.npmjs.org/deepmerge-ts set size:183304 disposed:false
+835 http fetch GET 200 https://registry.npmjs.org/effect 1293ms (cache revalidated)
+836 silly packumentCache corgi:https://registry.npmjs.org/effect set size:418621 disposed:false
+837 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 1486ms (cache revalidated)
+838 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker set size:138763 disposed:false
+839 http fetch GET 200 https://registry.npmjs.org/tinypool 1784ms (cache revalidated)
+840 silly packumentCache corgi:https://registry.npmjs.org/tinypool set size:45619 disposed:false
+841 silly packumentCache corgi:https://registry.npmjs.org/@prisma%2fconfig cache-miss
+842 http fetch GET 200 https://registry.npmjs.org/@prisma%2fconfig 684ms (cache revalidated)
+843 silly packumentCache corgi:https://registry.npmjs.org/@prisma%2fconfig set size:1524269 disposed:false
+844 silly packumentCache corgi:https://registry.npmjs.org/prisma cache-miss
+845 http fetch GET 200 https://registry.npmjs.org/prisma 1215ms (cache revalidated)
+846 silly packumentCache corgi:https://registry.npmjs.org/prisma set size:23261243 disposed:false
+847 silly packumentCache corgi:https://registry.npmjs.org/@prisma%2fclient cache-miss
+848 http fetch GET 200 https://registry.npmjs.org/@prisma%2fclient 1729ms (cache revalidated)
+849 silly packumentCache corgi:https://registry.npmjs.org/@prisma%2fclient set size:38182960 disposed:false
+850 http fetch GET 200 https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.7.tgz 15532ms (cache miss)
+851 info run esbuild@0.28.2 postinstall node_modules/esbuild node install.js
+852 info run esbuild@0.28.2 postinstall { code: 0, signal: null }
+853 notice run kids@0.1.0 postinstall
+854 notice run prisma generate
+855 silly CHANGE node_modules/@vitest/utils
+856 silly CHANGE node_modules/@vitest/spy
+857 silly CHANGE node_modules/@vitest/snapshot
+858 silly CHANGE node_modules/@vitest/runner
+859 silly CHANGE node_modules/@vitest/pretty-format
+860 silly CHANGE node_modules/@vitest/mocker
+861 silly CHANGE node_modules/@vitest/expect
+862 silly CHANGE node_modules/@types/deep-eql
+863 silly CHANGE node_modules/@types/chai
+864 silly CHANGE node_modules/@standard-schema/spec
+865 silly CHANGE node_modules/@rollup/rollup-win32-x64-msvc
+866 silly CHANGE node_modules/@rollup/rollup-win32-x64-gnu
+867 silly CHANGE node_modules/@prisma/get-platform
+868 silly CHANGE node_modules/@prisma/fetch-engine
+869 silly CHANGE node_modules/@prisma/engines-version
+870 silly CHANGE node_modules/@prisma/engines
+871 silly CHANGE node_modules/@prisma/debug
+872 silly CHANGE node_modules/@prisma/config
+873 silly CHANGE node_modules/@prisma/client
+874 silly CHANGE node_modules/@playwright/test
+875 silly CHANGE node_modules/@esbuild/win32-x64
+876 silly CHANGE node_modules/readdirp
+877 silly CHANGE node_modules/why-is-node-running
+878 silly CHANGE node_modules/vite
+879 silly CHANGE node_modules/vite/node_modules/picomatch
+880 silly CHANGE node_modules/vite/node_modules/fdir
+881 silly CHANGE node_modules/vitest
+882 silly CHANGE node_modules/vitest/node_modules/tinyexec
+883 silly CHANGE node_modules/vitest/node_modules/picomatch
+884 silly CHANGE node_modules/vite-node
+885 silly CHANGE node_modules/tsx
+886 silly CHANGE node_modules/tinyspy
+887 silly CHANGE node_modules/tinyrainbow
+888 silly CHANGE node_modules/tinypool
+889 silly CHANGE node_modules/tinyexec
+890 silly CHANGE node_modules/tinybench
+891 silly CHANGE node_modules/strip-literal
+892 silly CHANGE node_modules/strip-literal/node_modules/js-tokens
+893 silly CHANGE node_modules/std-env
+894 silly CHANGE node_modules/stackback
+895 silly CHANGE node_modules/siginfo
+896 silly CHANGE node_modules/rollup
+897 silly CHANGE node_modules/rc9
+898 silly CHANGE node_modules/playwright
+899 silly CHANGE node_modules/pure-rand
+900 silly CHANGE node_modules/prisma
+901 silly CHANGE node_modules/playwright-core
+902 silly CHANGE node_modules/pkg-types
+903 silly CHANGE node_modules/pkg-types/node_modules/confbox
+904 silly CHANGE node_modules/perfect-debounce
+905 silly CHANGE node_modules/pathval
+906 silly CHANGE node_modules/pathe
+907 silly CHANGE node_modules/ohash
+908 silly CHANGE node_modules/nypm
+909 silly CHANGE node_modules/nypm/node_modules/citty
+910 silly CHANGE node_modules/node-fetch-native
+911 silly CHANGE node_modules/loupe
+912 silly CHANGE node_modules/giget
+913 silly CHANGE node_modules/fast-check
+914 silly CHANGE node_modules/expect-type
+915 silly CHANGE node_modules/exsolve
+916 silly CHANGE node_modules/estree-walker
+917 silly CHANGE node_modules/esbuild
+918 silly CHANGE node_modules/es-module-lexer
+919 silly CHANGE node_modules/empathic
+920 silly CHANGE node_modules/effect
+921 silly CHANGE node_modules/dotenv
+922 silly CHANGE node_modules/destr
+923 silly CHANGE node_modules/defu
+924 silly CHANGE node_modules/deepmerge-ts
+925 silly CHANGE node_modules/deep-eql
+926 silly CHANGE node_modules/consola
+927 silly CHANGE node_modules/confbox
+928 silly CHANGE node_modules/citty
+929 silly CHANGE node_modules/chokidar
+930 silly CHANGE node_modules/check-error
+931 silly CHANGE node_modules/chai
+932 silly CHANGE node_modules/cac
+933 silly CHANGE node_modules/c12
+934 silly CHANGE node_modules/assertion-error
+935 warn install-scripts 4 packages had install scripts blocked because they are not covered by allowScripts:
+935 warn install-scripts   @prisma/client@6.19.0 (postinstall: node scripts/postinstall.js)
+935 warn install-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+935 warn install-scripts   prisma@6.19.0 (preinstall: node scripts/preinstall-entry.js)
+935 warn install-scripts   @prisma/engines@6.19.0 (postinstall: node scripts/postinstall.js)
+935 warn install-scripts
+935 warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+936 verbose cwd C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids
+937 verbose os Windows_NT 10.0.19045
+938 verbose node v24.15.0
+939 verbose npm  v12.2.1
+940 verbose exit 0
+941 info ok

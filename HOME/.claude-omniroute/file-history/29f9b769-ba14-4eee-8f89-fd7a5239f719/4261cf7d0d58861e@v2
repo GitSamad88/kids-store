@@ -1,0 +1,114 @@
+import { PrismaClient } from '@prisma/client';
+import { storeProducts } from '@/lib/store-catalog';
+
+const prisma = new PrismaClient();
+
+async function main() {
+  console.log('Seeding development catalog data for Kids Maroc...');
+
+  // Clear existing database
+  await prisma.$executeRawUnsafe(`TRUNCATE TABLE "OrderItem", "Order", "CartItem", "Cart", "Inventory", "ProductImage", "ProductVariant", "Product", "Category" RESTART IDENTITY`);
+
+  // 1. Categories
+  const vetements = await prisma.category.create({
+    data: {
+      slug: "vetements",
+      nameFr: "Vêtements & Mode",
+      nameAr: "الملابس والموضة",
+      description: "Vêtements tendance et confortables pour enfants et bébés au Maroc.",
+    },
+  });
+
+  const jouets = await prisma.category.create({
+    data: {
+      slug: "jouets",
+      nameFr: "Jouets & Jeux",
+      nameAr: "الألعاب والترفيه",
+      description: "Jouets éducatifs, Montessori et divertissants.",
+    },
+  });
+
+  const puericulture = await prisma.category.create({
+    data: {
+      slug: "puericulture",
+      nameFr: "Puériculture",
+      nameAr: "رعاية الأطفال",
+      description: "Poussettes, sièges auto et accessoires essentiels.",
+    },
+  });
+
+  const repas = await prisma.category.create({
+    data: {
+      slug: "repas",
+      nameFr: "Repas & Allaitement",
+      nameAr: "الوجبات والرضاعة",
+      description: "Chaises hautes, biberons et vaisselle pour bébé.",
+    },
+  });
+
+  // 2. Products & Variants & Inventory
+  for (const product of storeProducts) {
+    const existingProduct = await prisma.product.findUnique({
+      where: { slug: product.slug },
+    });
+
+    if (existingProduct) {
+      console.log(`⚠️  Product ${product.slug} already exists, skipping...`);
+      continue;
+    }
+
+    await prisma.product.create({
+      data: {
+        slug: product.slug,
+        titleFr: product.title,
+        titleAr: product.titleAr,
+        descriptionFr: product.description,
+        descriptionAr: product.descriptionAr,
+        price: product.price,
+        oldPrice: product.oldPrice,
+        costPrice: product.costPrice,
+        isActive: true,
+        isFeatured: product.isFeatured || false,
+        isDraft: false, // Start with published products
+        badge: product.badge,
+        ageRangeFr: product.ageRangeFr,
+        ageRangeAr: product.ageRangeAr,
+        categoryId: product.categoryId,
+        variants: product.variants.map((variant) => ({
+          create: {
+            nameFr: variant.nameFr,
+            nameAr: variant.nameAr,
+            sku: variant.sku,
+            price: variant.price,
+            stock: variant.stock || 0,
+          },
+        })),
+        inventory: {
+          create: {
+            stock: product.inStock ? 100 : 0, // Default stock
+            lowStockAlert: 5,
+          },
+        },
+        images: {
+          create: product.images.map((image) => ({
+            url: image.url,
+            position: image.position,
+          })),
+        },
+      },
+    });
+
+    console.log(`✅ Created product: ${product.slug}`);
+  }
+
+  console.log('Seeding completed successfully.');
+}
+
+main()
+  .catch((e) => {
+    console.error(e);
+    process.exit(1);
+  })
+  .finally(async () => {
+    await prisma.$disconnect();
+  });

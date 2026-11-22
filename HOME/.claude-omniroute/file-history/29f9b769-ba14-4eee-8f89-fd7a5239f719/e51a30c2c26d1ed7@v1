@@ -1,0 +1,178 @@
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
+
+async function main() {
+  console.log("Seeding development catalog data for Kids Maroc...");
+
+  // Clear existing database
+  await prisma.orderItem.deleteMany();
+  await prisma.order.deleteMany();
+  await prisma.cartItem.deleteMany();
+  await prisma.cart.deleteMany();
+  await prisma.inventory.deleteMany();
+  await prisma.productImage.deleteMany();
+  await prisma.productVariant.deleteMany();
+  await prisma.product.deleteMany();
+  await prisma.category.deleteMany();
+
+  // 1. Categories
+  const vetements = await prisma.category.create({
+    data: {
+      slug: "vetements",
+      nameFr: "Vêtements & Mode",
+      nameAr: "الملابس والموضة",
+      description: "Vêtements tendance et confortables pour enfants et bébés au Maroc.",
+    },
+  });
+
+  const jouets = await prisma.category.create({
+    data: {
+      slug: "jouets",
+      nameFr: "Jouets & Jeux",
+      nameAr: "الألعاب والترفيه",
+      description: "Jouets éducatifs, Montessori et divertissants.",
+    },
+  });
+
+  const puericulture = await prisma.category.create({
+    data: {
+      slug: "puericulture",
+      nameFr: "Puériculture",
+      nameAr: "رعاية الأطفال",
+      description: "Poussettes, sièges auto et accessoires essentiels.",
+    },
+  });
+
+  const repas = await prisma.category.create({
+    data: {
+      slug: "repas",
+      nameFr: "Repas & Allaitement",
+      nameAr: "الوجبات والرضاعة",
+      description: "Chaises hautes, biberons et vaisselle pour bébé.",
+    },
+  });
+
+  // 2. Products & Variants & Inventory
+  await prisma.product.create({
+    data: {
+      slug: "poussette-compacte-tout-terrain",
+      titleFr: "Poussette Compacte Tout-Terrain Luxe",
+      titleAr: "عربة أطفال مدمجة لجميع الطرق فاخرة",
+      descriptionFr: "Conçue pour les familles modernes au Maroc, cette poussette compacte tout-terrain allie maniabilité urbaine et robustesse.",
+      descriptionAr: "مصممة للعائلات الحديثة في المغرب، تجمع عربة الأطفال هذه بين المرونة الحضرية والمتانة.",
+      price: 1890.00,
+      oldPrice: 2200.00,
+      costPrice: 1200.00,
+      isFeatured: true,
+      categoryId: puericulture.id,
+      variants: {
+        create: [
+          { nameFr: "Gris Anthracite", nameAr: "رمادي أنثراسايت", sku: "POU-GRIS-01", price: 1890.00, stock: 15 },
+          { nameFr: "Beige Sable", nameAr: "بيج رملي", sku: "POU-BEI-02", price: 1890.00, stock: 8 },
+        ],
+      },
+      inventory: {
+        create: { stock: 23, lowStockAlert: 5 },
+      },
+      images: {
+        create: [
+          { url: "/images/poussette-1.jpg", position: 1 },
+          { url: "/images/poussette-2.jpg", position: 2 },
+        ],
+      },
+    },
+  });
+
+  await prisma.product.create({
+    data: {
+      slug: "ensemble-coton-bio-ete",
+      titleFr: "Ensemble Coton Bio Été",
+      titleAr: "طقم قطن عضوي للصيف",
+      descriptionFr: "Ensemble doux et respirant en coton biologique certifié, idéal pour la peau sensible de bébé pendant l'été marocain.",
+      descriptionAr: "طقم ناعم وقابل للتنفس من القطن العضوي المعْتمد، مثالي للبشرة الحساسة.",
+      price: 199.00,
+      oldPrice: 250.00,
+      costPrice: 90.00,
+      isFeatured: true,
+      categoryId: vetements.id,
+      variants: {
+        create: [
+          { nameFr: "0-3 Mois", nameAr: "0-3 أشهر", sku: "ENS-BIO-03", price: 199.00, stock: 25 },
+          { nameFr: "3-6 Mois", nameAr: "3-6 أشهر", sku: "ENS-BIO-06", price: 199.00, stock: 30 },
+          { nameFr: "6-12 Mois", nameAr: "6-12 شهر", sku: "ENS-BIO-12", price: 199.00, stock: 20 },
+        ],
+      },
+      inventory: {
+        create: { stock: 75, lowStockAlert: 10 },
+      },
+      images: {
+        create: [{ url: "/images/vetement-1.jpg", position: 1 }],
+      },
+    },
+  });
+
+  await prisma.product.create({
+    data: {
+      slug: "porteur-educatif-bois",
+      titleFr: "Porteur Éducatif en Bois Montessori",
+      titleAr: "لعبة تعليمية خشبية مونتيسوري",
+      descriptionFr: "Porteur en bois naturel pour stimuler l'équilibre et la motricité globale de l'enfant en toute sécurité.",
+      descriptionAr: "لعبة خشبية طبيعية لتحفيز التوازن والمهارات الحركية للأطفال بأمان تام.",
+      price: 349.00,
+      oldPrice: 420.00,
+      costPrice: 180.00,
+      isFeatured: true,
+      categoryId: jouets.id,
+      variants: {
+        create: [
+          { nameFr: "Bois Naturel", nameAr: "خشب طبيعي", sku: "JOU-BOIS-01", price: 349.00, stock: 12 },
+        ],
+      },
+      inventory: {
+        create: { stock: 12, lowStockAlert: 3 },
+      },
+      images: {
+        create: [{ url: "/images/jouet-1.jpg", position: 1 }],
+      },
+    },
+  });
+
+  await prisma.product.create({
+    data: {
+      slug: "chaise-haute-evolutive",
+      titleFr: "Chaise Haute Évolutive 3-en-1",
+      titleAr: "كرسي مرتفع قابل للتعديل 3 في 1",
+      descriptionFr: "Chaise haute confortable, facile à nettoyer et convertible en bureau pour accompagner la croissance de votre enfant.",
+      descriptionAr: "كرسي مرتفع مريح، سهل التنظيف وقابل للتحويل إلى مكتب لمرافقة نمو طفلك.",
+      price: 890.00,
+      oldPrice: 1050.00,
+      costPrice: 450.00,
+      isFeatured: true,
+      categoryId: repas.id,
+      variants: {
+        create: [
+          { nameFr: "Gris / Bois", nameAr: "رمادي / خشب", sku: "REP-CHAISE-01", price: 890.00, stock: 10 },
+          { nameFr: "Rose / Bois", nameAr: "وردي / خشب", sku: "REP-CHAISE-02", price: 890.00, stock: 6 },
+        ],
+      },
+      inventory: {
+        create: { stock: 16, lowStockAlert: 4 },
+      },
+      images: {
+        create: [{ url: "/images/repas-1.jpg", position: 1 }],
+      },
+    },
+  });
+
+  console.log("Seeding completed successfully.");
+}
+
+main()
+  .catch((e) => {
+    console.error(e);
+    process.exit(1);
+  })
+  .finally(async () => {
+    await prisma.$disconnect();
+  });

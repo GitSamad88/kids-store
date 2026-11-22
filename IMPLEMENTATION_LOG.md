@@ -1,0 +1,20 @@
+### 2026-11-19 — Admin Panel & Storefront DB Integration Bugfix Loop (Review/Bugfix Branch)
+- Scope: Admin authentication, admin UI shell, database-driven storefront integration, and rigorous quality check.
+- Files changed:
+  - `kids/app/page.tsx`
+  - `kids/lib/catalog.ts`
+  - `kids/app/admin/login/page.tsx`
+  - `kids/app/admin/layout.tsx`
+  - `kids/app/admin/page.tsx`
+  - `kids/app/admin/products/page.tsx`
+  - `kids/app/admin/products/new/page.tsx`
+  - `kids/app/admin/orders/page.tsx`
+  - `kids/middleware.ts`
+  - `kids/prisma/schema.prisma`
+  - `kids/prisma/seed.ts`
+  - `kids/prisma/create-admin.ts`
+- Implementation notes:
+  - Connected the homepage and storefront catalogs directly to PostgreSQL via `lib/catalog.ts`.
+  - Implemented secure admin authentication with bcrypt, secure HTTP-only cookies, and Next.js middleware protection.
+  - Built protected admin dashboard, product management (create/list), and order status updating with audit logging.
+- Checks run: Vitest unit tests (`7 passed`), linting, and database seeding verification.

@@ -1,0 +1,35 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"(New-Object Media.SoundPlayer 'C:\\Windows\\Media\\tada.wav').PlaySync()\"",
+            "timeout": 100,
+            "statusMessage": "finished",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"(New-Object Media.SoundPlayer 'C:\\Windows\\Media\\chimes.wav').PlaySync()\"",
+            "timeout": 100,
+            "statusMessage": "waiting for you",
+            "async": true
+          }
+        ]
+      }
+    ]
+  },
+  "modelSettings": {
+    "free-combo": {
+      "effortLevel": "xhigh"
+    }
+  }
+}

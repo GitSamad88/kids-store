@@ -1,0 +1,43 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@12.2.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Users\hp\AppData\Roaming\npm\node_modules\npm\npmrc
+4 warn config optional Use `--omit=optional` to exclude optional dependencies, or
+4 warn config `--include=optional` to include them.
+4 warn config
+4 warn config       Default value does install optional deps unless otherwise omitted.
+5 silly config load:file:C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npmrc
+6 silly config load:file:C:\Users\hp\.npmrc
+7 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install
+9 verbose argv "install" "--package-lock-only" "--ignore-scripts" "--no-audit" "--no-fund" "--cache" ".npm-cache-temp" "--offline" "--no-optional"
+10 verbose logfile logs-max:10 dir:C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T19_19_02_090Z-
+11 verbose logfile C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T19_19_02_090Z-debug-0.log
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 verbose stack Error: Fetching packages of type "remote" have been disabled
+15 verbose stack     at canUse (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\fetcher.js:485:5)
+15 verbose stack     at FetcherBase.get (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\fetcher.js:502:7)
+15 verbose stack     at Object.extract (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\index.js:19:34)
+15 verbose stack     at C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1042:22
+15 verbose stack     at withTempDir (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\fs\lib\with-temp-dir.js:21:20)
+15 verbose stack     at async #buildDepStep (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1041:7)
+15 verbose stack     at async Arborist.buildIdealTree (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:188:7)
+15 verbose stack     at async Arborist.reify (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:118:5)
+15 verbose stack     at async Install.exec (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:176:5)
+15 verbose stack     at async Npm.exec (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\lib\npm.js:194:9)
+16 error code EALLOWREMOTE
+17 error Fetching packages of type "remote" have been disabled
+18 error Refusing to fetch "https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.3.3.tgz"
+19 silly unfinished npm timer reify 1793215144503
+20 silly unfinished npm timer reify:loadTrees 1793215144503
+21 silly unfinished npm timer idealTree:buildDeps 1793215145175
+22 silly unfinished npm timer idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi 1793215145180
+23 verbose cwd C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids
+24 verbose os Windows_NT 10.0.19045
+25 verbose node v24.15.0
+26 verbose npm  v12.2.1
+27 verbose exit 1
+28 verbose code 1
+29 error A complete log of this run can be found in: C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T19_19_02_090Z-debug-0.log

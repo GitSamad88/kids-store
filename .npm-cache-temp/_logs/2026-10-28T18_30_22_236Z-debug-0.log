@@ -1,0 +1,172 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@12.2.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Users\hp\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--package-lock-only" "--ignore-scripts" "--no-audit" "--no-fund" "--cache" ".npm-cache-temp" "--fetch-retries" "0" "--fetch-timeout" "15000"
+9 verbose logfile logs-max:10 dir:C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T18_30_22_236Z-
+10 verbose logfile C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T18_30_22_236Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @playwright/test@^1.57.0
+15 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 2990ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:undefined disposed:false
+18 silly fetch manifest prisma@6.19.0
+19 silly packumentCache full:https://registry.npmjs.org/prisma cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/prisma 5335ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/prisma set size:undefined disposed:false
+22 silly fetch manifest typescript@^5
+23 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/typescript 1942ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+26 silly fetch manifest tsx@^4.20.6
+27 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/tsx 142ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+30 silly fetch manifest vitest@^3.2.4
+31 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/vitest 357ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/vitest set size:undefined disposed:false
+34 silly fetch manifest @types/node@^20
+35 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1324ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+38 silly placeDep ROOT @playwright/test@1.64.1 OK for: kids@0.1.0 want: ^1.57.0
+39 silly placeDep ROOT prisma@6.19.0 OK for: kids@0.1.0 want: 6.19.0
+40 silly placeDep ROOT tsx@4.23.15 OK for: kids@0.1.0 want: ^4.20.6
+41 silly placeDep ROOT vitest@3.2.7 OK for: kids@0.1.0 want: ^3.2.4
+42 silly fetch manifest playwright@1.64.1
+43 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+44 silly fetch manifest @prisma/config@6.19.0
+45 silly packumentCache full:https://registry.npmjs.org/@prisma%2fconfig cache-miss
+46 silly fetch manifest @prisma/engines@6.19.0
+47 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@prisma%2fconfig 2912ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@prisma%2fconfig set size:undefined disposed:false
+50 silly fetch manifest esbuild@~0.28.0
+51 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/playwright 5184ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/playwright set size:undefined disposed:false
+54 silly fetch manifest fsevents@~2.3.3
+55 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/fsevents 171ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+58 silly fetch manifest chai@^5.2.0
+59 silly packumentCache full:https://registry.npmjs.org/chai cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/chai 134ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/chai set size:undefined disposed:false
+62 silly fetch manifest vite@^5.0.0 || ^6.0.0 || ^7.0.0-0
+63 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/esbuild 2889ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+66 silly fetch manifest pathe@^2.0.3
+67 silly packumentCache full:https://registry.npmjs.org/pathe cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/pathe 691ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/pathe set size:undefined disposed:false
+70 silly fetch manifest std-env@^3.9.0
+71 silly packumentCache full:https://registry.npmjs.org/std-env cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/std-env 658ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/std-env set size:undefined disposed:false
+74 silly fetch manifest tinyexec@^0.3.2
+75 silly packumentCache full:https://registry.npmjs.org/tinyexec cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/tinyexec 528ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/tinyexec set size:undefined disposed:false
+78 silly fetch manifest tinypool@^1.1.1
+79 silly packumentCache full:https://registry.npmjs.org/tinypool cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/tinypool 909ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/tinypool set size:undefined disposed:false
+82 silly fetch manifest picomatch@^4.0.2
+83 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/picomatch 477ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+86 silly fetch manifest tinybench@^2.9.0
+87 silly packumentCache full:https://registry.npmjs.org/tinybench cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/tinybench 324ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/tinybench set size:undefined disposed:false
+90 silly fetch manifest vite-node@3.2.4
+91 silly packumentCache full:https://registry.npmjs.org/vite-node cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/vite-node 1502ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/vite-node set size:undefined disposed:false
+94 silly fetch manifest @types/chai@^5.2.2
+95 silly packumentCache full:https://registry.npmjs.org/@types%2fchai cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@types%2fchai 385ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@types%2fchai set size:undefined disposed:false
+98 silly fetch manifest @vitest/spy@3.2.7
+99 silly packumentCache full:https://registry.npmjs.org/@vitest%2fspy cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/vite 6093ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/vite set size:undefined disposed:false
+102 silly fetch manifest expect-type@^1.2.1
+103 silly packumentCache full:https://registry.npmjs.org/expect-type cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/@vitest%2fspy 1284ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/@vitest%2fspy set size:undefined disposed:false
+106 silly fetch manifest tinyrainbow@^2.0.0
+107 silly packumentCache full:https://registry.npmjs.org/tinyrainbow cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/expect-type 200ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/expect-type set size:undefined disposed:false
+110 silly fetch manifest @vitest/utils@3.2.7
+111 silly packumentCache full:https://registry.npmjs.org/@vitest%2futils cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/tinyrainbow 222ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/tinyrainbow set size:undefined disposed:false
+114 silly fetch manifest @vitest/expect@3.2.7
+115 silly packumentCache full:https://registry.npmjs.org/@vitest%2fexpect cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/@prisma%2fengines 13265ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines set size:undefined disposed:false
+118 silly fetch manifest @vitest/mocker@3.2.7
+119 silly packumentCache full:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/@vitest%2futils 917ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@vitest%2futils set size:undefined disposed:false
+122 silly fetch manifest @vitest/runner@3.2.7
+123 silly packumentCache full:https://registry.npmjs.org/@vitest%2frunner cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/@vitest%2fexpect 926ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/@vitest%2fexpect set size:undefined disposed:false
+126 silly fetch manifest @vitest/snapshot@3.2.7
+127 silly packumentCache full:https://registry.npmjs.org/@vitest%2fsnapshot cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 149ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/@vitest%2fmocker set size:undefined disposed:false
+130 silly fetch manifest why-is-node-running@^2.3.0
+131 silly packumentCache full:https://registry.npmjs.org/why-is-node-running cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/@vitest%2frunner 186ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/@vitest%2frunner set size:undefined disposed:false
+134 silly fetch manifest @vitest/pretty-format@^3.2.7
+135 silly packumentCache full:https://registry.npmjs.org/@vitest%2fpretty-format cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/why-is-node-running 196ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/why-is-node-running set size:undefined disposed:false
+138 http fetch GET 200 https://registry.npmjs.org/@vitest%2fsnapshot 330ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/@vitest%2fsnapshot set size:undefined disposed:false
+140 http fetch GET 200 https://registry.npmjs.org/@vitest%2fpretty-format 337ms (cache miss)
+141 silly packumentCache full:https://registry.npmjs.org/@vitest%2fpretty-format set size:undefined disposed:false
+142 silly placeDep ROOT playwright@1.64.1 OK for: @playwright/test@1.64.1 want: 1.64.1
+143 silly fetch manifest playwright-core@1.64.1
+144 silly packumentCache full:https://registry.npmjs.org/playwright-core cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/playwright-core 9479ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/playwright-core set size:undefined disposed:false
+147 verbose stack Error: Fetching packages of type "remote" have been disabled
+147 verbose stack     at canUse (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\fetcher.js:485:5)
+147 verbose stack     at FetcherBase.get (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\fetcher.js:502:7)
+147 verbose stack     at Object.extract (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\index.js:19:34)
+147 verbose stack     at C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1042:22
+147 verbose stack     at withTempDir (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\fs\lib\with-temp-dir.js:21:20)
+147 verbose stack     at async #buildDepStep (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1041:7)
+147 verbose stack     at async Arborist.buildIdealTree (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:188:7)
+147 verbose stack     at async Arborist.reify (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:118:5)
+147 verbose stack     at async Install.exec (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:176:5)
+147 verbose stack     at async Npm.exec (C:\Users\hp\AppData\Roaming\npm\node_modules\npm\lib\npm.js:194:9)
+148 error code EALLOWREMOTE
+149 error Fetching packages of type "remote" have been disabled
+150 error Refusing to fetch "https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.3.3.tgz"
+151 silly unfinished npm timer reify 1793212225204
+152 silly unfinished npm timer reify:loadTrees 1793212225204
+153 silly unfinished npm timer idealTree:buildDeps 1793212226022
+154 silly unfinished npm timer idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi 1793212264327
+155 verbose cwd C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids
+156 verbose os Windows_NT 10.0.19045
+157 verbose node v24.15.0
+158 verbose npm  v12.2.1
+159 verbose exit 1
+160 verbose code 1
+161 error A complete log of this run can be found in: C:\Users\hp\Downloads\claude-ecommerce-scaffold-wlidaty\kids\.npm-cache-temp\_logs\2026-10-28T18_30_22_236Z-debug-0.log

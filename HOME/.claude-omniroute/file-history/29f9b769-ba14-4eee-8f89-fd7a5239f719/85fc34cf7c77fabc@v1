@@ -1,0 +1,6 @@
+import { CollectionListing } from "@/components/CollectionListing";
+import { promotionContent } from "@/lib/store-catalog";
+
+export default function PromotionsPage() {
+  return <CollectionListing {...promotionContent} />;
+}

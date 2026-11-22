@@ -1,0 +1,7 @@
+- [x] T5.1 Unit and integration tests.
+- [x] T5.2 Browser tests for browse → product → cart → checkout.
+- [x] T5.3 Security and privacy review.
+- [x] T5.4 SEO metadata, sitemap, robots, and structured data where appropriate.
+- [x] T5.5 Performance and responsive audit.
+- [x] T5.6 Production environment and deployment checklist.
+- [x] T5.7 Final smoke test and handover documentation.

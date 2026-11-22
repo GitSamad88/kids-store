@@ -1,0 +1,93 @@
+import { describe, it, expect } from "vitest";
+import { computeCartTotals } from "../lib/cart";
+import { categoryContent, categorySlugs, productDetails, storeProducts } from "../lib/store-catalog";
+import { ProductQuerySchema, CheckoutInputSchema, RegisterSchema } from "../lib/validations";
+
+describe("E-Commerce Business Logic & Validation Tests", () => {
+  describe("Cart Totals Calculation", () => {
+    it("should compute subtotal and add shipping fee when under threshold", () => {
+      const mockCart = {
+        items: [
+          { quantity: 2, variant: { price: 100, product: { price: 100 } } },
+        ],
+      };
+      const { subtotal, shippingCost, total } = computeCartTotals(mockCart);
+      expect(subtotal).toBe(200);
+      expect(shippingCost).toBe(30); // Below 500 MAD threshold
+      expect(total).toBe(230);
+    });
+
+    it("should offer free shipping when subtotal is 500 MAD or more", () => {
+      const mockCart = {
+        items: [
+          { quantity: 3, variant: { price: 200, product: { price: 200 } } },
+        ],
+      };
+      const { subtotal, shippingCost, total } = computeCartTotals(mockCart);
+      expect(subtotal).toBe(600);
+      expect(shippingCost).toBe(0); // Free shipping above 500 MAD
+      expect(total).toBe(600);
+    });
+  });
+
+  describe("Server-Side Validation Schemas", () => {
+    it("should validate Moroccan phone numbers correctly", () => {
+      const validPhone = "0612345678";
+      const validPhoneInternational = "+212612345678";
+      const invalidPhone = "0812345678"; // Invalid prefix
+
+      const resultValid = CheckoutInputSchema.partial().safeParse({ customerPhone: validPhone });
+      const resultValidInt = CheckoutInputSchema.partial().safeParse({ customerPhone: validPhoneInternational });
+      const resultInvalid = CheckoutInputSchema.partial().safeParse({ customerPhone: invalidPhone });
+
+      expect(resultValid.success).toBe(true);
+      expect(resultValidInt.success).toBe(true);
+      expect(resultInvalid.success).toBe(false);
+    });
+
+    it("should validate product query parameters with coercion", () => {
+      const query = { minPrice: "100", maxPrice: "1000", page: "2", sort: "price-asc" };
+      const parsed = ProductQuerySchema.safeParse(query);
+
+      expect(parsed.success).toBe(true);
+      if (parsed.success) {
+        expect(parsed.data.minPrice).toBe(100);
+        expect(parsed.data.maxPrice).toBe(1000);
+        expect(parsed.data.page).toBe(2);
+        expect(parsed.data.sort).toBe("price-asc");
+      }
+    });
+
+    it("should require strong passwords for user registration", () => {
+      const shortPassword = RegisterSchema.safeParse({
+        fullName: "Ahmed Benani",
+        email: "ahmed@example.com",
+        password: "123", // Too short
+      });
+
+      const validRegistration = RegisterSchema.safeParse({
+        fullName: "Ahmed Benani",
+        email: "ahmed@example.com",
+        password: "securepassword123",
+      });
+
+      expect(shortPassword.success).toBe(false);
+      expect(validRegistration.success).toBe(true);
+    });
+  });
+
+  describe("Storefront route data", () => {
+    it("provides a product detail route and purchasable variant for every card", () => {
+      for (const product of storeProducts) {
+        expect(productDetails[product.slug]).toBeDefined();
+        expect(product.variantSku).toBeTruthy();
+      }
+    });
+
+    it("provides content for every linked category", () => {
+      for (const slug of categorySlugs) {
+        expect(categoryContent[slug]).toBeDefined();
+      }
+    });
+  });
+});
